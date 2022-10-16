@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import "../App.css";
 import {
-  border,
-  Box,
   IconButton,
   Menu,
   MenuButton,
