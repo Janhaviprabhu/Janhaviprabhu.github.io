@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import { Navbar } from './Components/navbar';
+import { AllRoutes } from './AllRoutes/Routes';
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        Hello <p>&#128512;</p> This is my Portfolio{" "}
-      </h1>
+      <Navbar/>
+      <AllRoutes/>
     </div>
   );
 }
