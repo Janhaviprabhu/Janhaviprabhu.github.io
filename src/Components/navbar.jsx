@@ -1,94 +1,35 @@
-import { Link } from "react-router-dom";
-import { HamburgerIcon } from "@chakra-ui/icons";
-import "../App.css";
-import {
-  IconButton,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuList,
-} from "@chakra-ui/react";
-import { useState } from "react";
-
-export const Navbar = () => {
-  const [show,setShow]=useState(false)
+import { Box, Container, Flex, Text } from "@chakra-ui/react"
+import "../App.css"
+export const Navbar=()=>{
   return (
     <>
-      <div className="maindiv">
-        <h2 className="logo">Janhavi </h2>
-        <div className="leftdiv">
-          <div>
-            {" "}
-            <Link to={"/"}>
-              <h2>Work</h2>
-            </Link>
-          </div>
-          <div>
-            {" "}
-            <Link to={"/about"}>
-              <h2>About</h2>
-            </Link>{" "}
-          </div>
-          <div>
-            <Link to={"/skills"}>
-              <h2>Skills</h2>
-            </Link>
-          </div>
-          <div>
-            <Link to={"/contact"}>
-              <h2>Contact</h2>
-            </Link>
-          </div>
-        </div>
-        <div className="rightdiv">
-          <div>View CV</div>
-        </div>
-        <div className="hamburgericon" onClick={() => setShow(!show)}>
-          <Menu bg={"rgb(248 206 254)"}>
-            <MenuButton
-              bg={"rgb(248 206 254)"}
-              _hover={{ bg: "rgb(248 206 254)" }}
-              as={IconButton}
-              aria-label="Options"
-              icon={<HamburgerIcon />}
-            />
-            <MenuList bg="rgb(248 206 254)" width={40}>
-              <MenuItem
-                _hover={{
-                  bg: "rgb(248 206 254)",
-                  border: "1px solid purple",
-                }}
-              >
-                <Link to={"/"}>Work</Link>
-              </MenuItem>
-              <MenuItem
-                _hover={{
-                  bg: "rgb(248 206 254)",
-                  border: "1px solid purple",
-                }}
-              >
-                <Link to={"/about"}>About</Link>
-              </MenuItem>
-              <MenuItem
-                _hover={{
-                  bg: "rgb(248 206 254)",
-                  border: "1px solid purple",
-                }}
-              >
-                <Link to={"/skills"}>Skills</Link>
-              </MenuItem>
-              <MenuItem
-                _hover={{
-                  bg: "rgb(248 206 254)",
-                  border: "1px solid purple",
-                }}
-              >
-                <Link to={'/contact'} >Contact</Link>
-              </MenuItem>
-            </MenuList>
-          </Menu>
-        </div>
-      </div>
+      <Box className="sidebar">
+        <Box fontFamily={"initial"} p={"60px"} bg={"#1A365D"} fontSize="46px">
+          Janhavi
+        </Box>
+        <Box className="middlebar" mt={10}>
+          <Box className="list" >
+            Home
+          </Box>
+          <Box className="list" >
+            About
+          </Box>
+          <Box className="list">
+            Skills
+          </Box>
+          <Box className="list" >
+            Project
+          </Box>
+          <Box className="list" p={4}>
+            Contact
+          </Box>
+        </Box>
+        <Flex p={"52px"} gap={10} mt={70} bg={"#1A365D"} textAlign={"center"}>
+          <Box bg={"#1A365D"}>Linkedin</Box>
+          <Box bg={"#1A365D"}>Github</Box>
+          <Box bg={"#1A365D"}>Twitter</Box>
+        </Flex>
+      </Box>
     </>
   );
-};
+}
