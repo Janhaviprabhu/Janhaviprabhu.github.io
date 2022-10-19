@@ -1,23 +1,35 @@
 * {
-  background-color: #ebf8ff;
+  background-color: #ffffff;
 margin: 0;
 padding: 0;
 font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+.menuicon{
+   display: none; 
+  cursor: pointer;
 
+  position: fixed;
+ 
+  top: 1rem;
+  right: 2rem;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  background-color: #18172e;
+  padding: .5rem 1rem .7rem 1rem
+}
 
 
 
 
 .sidebar{
 
-  background-color:#1A365D ;
+  background-color:#18172e ;
   width: 350px;
   height: 100%;
-  color: #ebf8ff;
+ 
 position: fixed;
   text-align: center;
-z-index: 1000;
+
 overflow: hidden;
 cursor: pointer;
 }
@@ -26,8 +38,36 @@ cursor: pointer;
 }
 .list{
   padding: 10px;
-  background-color:#1A365D ;
+  background-color:#18172e ;
 }
 .list:hover{
   letter-spacing: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+  .menuicon{
+    display: inherit;
+  }
 }
