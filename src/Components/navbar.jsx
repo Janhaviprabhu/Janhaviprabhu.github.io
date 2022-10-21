@@ -1,7 +1,12 @@
 import { HamburgerIcon } from "@chakra-ui/icons";
-import { Box, Container, Flex, Text } from "@chakra-ui/react"
-import "../App.css"
-export const Navbar=()=>{
+import { Box, Container, Flex, Text } from "@chakra-ui/react";
+import { useState } from "react";
+import "../App.css";
+export const Navbar = () => {
+  const [display,setDisplay]=useState(false)
+  const style={
+    display:"none"
+  }
   return (
     <>
       <Box className="menuicon">
@@ -17,14 +22,14 @@ export const Navbar=()=>{
         >
           Janhavi
         </Box>
-        <Box color={"#e7e6ff"} className="middlebar" mt={10}>
-          <Box className="list">Home</Box>
+        <Box bg={"#18172e"} className="middlebar" mt={10}>
+          <Box className="list" p={1}>
+            Home
+          </Box>
           <Box className="list">About</Box>
           <Box className="list">Skills</Box>
           <Box className="list">Project</Box>
-          <Box className="list" p={4}>
-            Contact
-          </Box>
+          <Box className="list">Contact</Box>
         </Box>
         <Flex
           color={"#e7e6ff"}
@@ -41,4 +46,4 @@ export const Navbar=()=>{
       </Box>
     </>
   );
-}
+};
