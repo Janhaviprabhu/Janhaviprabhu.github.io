@@ -60,7 +60,7 @@ cursor: pointer;
 }
 
 }
-@media (max-width:885npx){
+@media (max-width:991px){
   .bar{
     display: block;
   }

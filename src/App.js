@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import { Navbar } from './Components/navbar';
+
 import { Box, Flex, VStack ,Image, Switch} from '@chakra-ui/react';
+import { Profile } from './Components/profile';
 
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
           </Box>
         </Box>
         <Box className="smallsidebar">
-          <VStack className="sidebarII" pos={"fixed"} bg={"#088aa8"}>
+
+          <VStack className="sidebarII" pos={"fixed"} bg={"#088aa8"}>    /// sidebar 2 for responsive 
             <Box
               className="bar"
               fontFamily={"-moz-initial"}
@@ -87,7 +89,7 @@ function App() {
             <Box className="bar" p={"42px"} bg={"#088aa8"} mt={10}>
               <Switch
                 className="bar"
-                pb={"250px"}
+                pb={"670px"}
                 bg={"#088aa8"}
                 colorScheme="cyan"
               ></Switch>
@@ -95,6 +97,7 @@ function App() {
           </VStack>
         </Box>
       </Flex>
+      <Profile />
     </div>
   );
 }
