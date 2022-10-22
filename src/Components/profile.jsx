@@ -1,13 +1,16 @@
-import { Box, Flex,Text } from "@chakra-ui/react"
+import { Box, Flex,Text,Image } from "@chakra-ui/react"
 
 export const Profile=()=>{
   return (
     <>
       <Box></Box>
-      <Flex ml={{ base: "160px",sm:'200px', md: "320px", lg:"460px" }} mt={20}>
+      <Flex
+        ml={{ base: "160px", sm: "200px", md: "320px", lg: "460px" }}
+        mt={20}
+      >
         <Box
           textAlign={{ base: "left", lg: "left" }}
-           lineHeight={{ base: "35px", md: "50px", lg: "80px" }}
+          lineHeight={{ base: "35px", md: "50px", lg: "80px" }}
           fontSize={{ base: "30px", md: "45px", lg: "50px" }}
         >
           <Flex
@@ -25,7 +28,9 @@ export const Profile=()=>{
           </Flex>
           <Box>Full Stack Developer</Box>
         </Box>
-        <Box></Box>
+        <Box>
+          <Image src="https://avatars.githubusercontent.com/u/97351159?v=4" />
+        </Box>
       </Flex>
     </>
   );
