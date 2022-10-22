@@ -28,12 +28,12 @@ font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 .sidebar{
 
   background-color:#088aa8 ;
-  width: 350px;
+  width: 20%;
   height: 100%;
  
 position: fixed;
   text-align: center;
-
+z-index: 1000;
 overflow: hidden;
 cursor: pointer;
 }

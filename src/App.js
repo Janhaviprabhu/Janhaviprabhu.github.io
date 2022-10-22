@@ -3,6 +3,9 @@ import './App.css';
 
 import { Box, Flex, VStack ,Image, Switch} from '@chakra-ui/react';
 import { Profile } from './Components/profile';
+import { About } from './Components/About';
+import { Skills } from './Components/Skills';
+import { Work } from './Components/Work';
 
 
 function App() {
@@ -13,13 +16,13 @@ function App() {
           <Box
             color={"white"}
             fontFamily={"initial"}
-            p={"60px"}
+            p={"50px"}
             bg={"#088aa8"}
-            fontSize="46px"
+            fontSize="49px"
           >
             Janhavi
           </Box>
-          <Box bg={"#18172e"} className="middlebar" mt={10}>
+          <Box bg={"#088aa8"} className="middlebar" mt={10}>
             <Box className="list" p={1}>
               Home
             </Box>
@@ -33,8 +36,9 @@ function App() {
           </Box>
         </Box>
         <Box className="smallsidebar">
-
-          <VStack className="sidebarII" pos={"fixed"} bg={"#088aa8"}>    /// sidebar 2 for responsive 
+          <VStack className="sidebarII" pos={"fixed"} bg={"#088aa8"}>
+            {" "}
+            /// sidebar 2 for responsive
             <Box
               className="bar"
               fontFamily={"-moz-initial"}
@@ -97,7 +101,18 @@ function App() {
           </VStack>
         </Box>
       </Flex>
-      <Profile />
+      <Box>
+        <Profile />
+      </Box>
+      <Box>
+        <About />
+      </Box>
+      <Box>
+        <Skills />
+      </Box>
+      <Box>
+        <Work/>
+      </Box>
     </div>
   );
 }
