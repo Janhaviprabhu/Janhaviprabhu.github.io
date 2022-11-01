@@ -112,7 +112,7 @@ function App() {
                 className="bar"
                 pb={"670px"}
                 bg={"#088aa8"}
-                colorScheme="cyan"
+                colorScheme="red"
               ></Switch>
             </Box>
           </VStack>
