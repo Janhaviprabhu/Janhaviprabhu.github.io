@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
 
-import { Box, Flex, VStack ,Image, Switch} from '@chakra-ui/react';
-import { Profile } from './Components/profile';
-import { About } from './Components/About';
-import { Skills } from './Components/Skills';
-import { Work } from './Components/Work';
+import "./App.css";
 
+import { Box, Flex, VStack, Image, Switch } from "@chakra-ui/react";
+import { Profile } from "./Components/profile";
+import { About } from "./Components/About";
+import { Skills } from "./Components/Skills";
+import { Work } from "./Components/Work";
 
 function App() {
   return (
@@ -30,21 +29,32 @@ function App() {
             <Box className="list">Skills</Box>
             <Box className="list">Project</Box>
             <Box className="list">Contact</Box>
+            <Box className="list">
+              <a href="https://drive.google.com/file/d/1iz01mtNZE-e1O-OPiFp4MoTKUBYHkEtc/view?usp=sharing">
+                Resume
+              </a>
+            </Box>
           </Box>
           <Box mt={20} bg={"#088aa8"}>
             <Switch colorScheme={"cyan"} bg={"#088aa8"}></Switch>
           </Box>
         </Box>
         <Box className="smallsidebar">
-          <VStack className="sidebarII" pos={"fixed"} bg={"#088aa8"}>
+          <VStack
+            width={{ base: "100px" }}
+            className="sidebarII"
+            pos={"fixed"}
+            bg={"#088aa8"}
+          >
             {" "}
             /// sidebar 2 for responsive
             <Box
+              width={{ base: "100px" }}
               className="bar"
               fontFamily={"-moz-initial"}
               color={"white"}
               padding={10}
-              fontSize={"56px"}
+              fontSize={{ base: "20px" }}
               bg={"#088aa8"}
               mb={10}
             >
@@ -90,8 +100,15 @@ function App() {
                 src="https://cdn-user-icons.flaticon.com/73546/73546517/1666292196116.svg?token=exp=1666293045~hmac=3e2c4d3f69a388d1b2ab92fe4293035b"
               />
             </Box>
-            <Box className="bar" p={"42px"} bg={"#088aa8"} mt={10}>
+            <Box
+              width={{ base: "100px" }}
+              className="bar"
+              p={"25px"}
+              bg={"#088aa8"}
+              mt={10}
+            >
               <Switch
+              size={{base:"sm"}}
                 className="bar"
                 pb={"670px"}
                 bg={"#088aa8"}
@@ -111,7 +128,7 @@ function App() {
         <Skills />
       </Box>
       <Box>
-        <Work/>
+        <Work />
       </Box>
     </div>
   );

@@ -3,11 +3,12 @@ import { Box ,Text} from "@chakra-ui/react"
 export const About=()=>{
     return (
       <>
-        <Box ml={{ base: "160px", sm: "200px", md: "255px", lg: "390px" }}>
+        <Box ml={{ base: "160px", sm: "160px", md: "255px", lg: "390px" }}>
           <Text
             textAlign={"center"}
             color={"#00B5D8"}
             ml={{ lg: "-70px" }}
+            mt={10}
             fontSize={{ base: "20px", md: "22px", lg: "40px" }}
           >
             About Me

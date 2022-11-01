@@ -4,13 +4,13 @@ export const Skills = () => {
   return (
     <>
       <Box
-        ml={{ base: "190px", sm: "90px", md: "35px", lg: "170px" }}
+        ml={{ base: "190px", sm: "90px", md: "80px", lg: "170px" }}
         w={{ base: "60%", sm: "63%", md: "90%", lg: "80%" }}
         m="auto"
         mt="5%"
       >
         <Text
-          ml={{ base: "120px", sm: "215px", md: "165px", lg: "300px" }}
+          ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           textAlign="center"
           color={"#00B5D8"}
           fontSize={{ base: "20px", md: "22px", lg: "43px" }}

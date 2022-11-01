@@ -63,6 +63,7 @@ cursor: pointer;
 @media (max-width:991px){
   .bar{
     display: block;
+    
   }
   .sidebar{
     display: none;
@@ -90,4 +91,15 @@ cursor: pointer;
     display: inherit;
   }
 
+}
+/* project section  style */
+
+.project_image:hover{
+ filter: alpha(opacity=70);
+    opacity: 0.6;
+    cursor: pointer;
+}
+.project_box:hover{
+   transform: scale(0.99);
+  
 }
