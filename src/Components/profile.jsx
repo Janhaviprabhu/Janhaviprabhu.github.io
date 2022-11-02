@@ -6,7 +6,7 @@ export const Profile = () => {
     <>
       <Box></Box>
       <Flex
-      pr={10}
+        pr={10}
         gap={10}
         alignItems={{ base: "center", md: "center" }}
         ml={{ base: "160px", sm: "200px", md: "255px", lg: "400px" }}
@@ -16,7 +16,7 @@ export const Profile = () => {
         <Box
           textAlign={{ base: "left", lg: "left" }}
           lineHeight={{ base: "35px", md: "50px", lg: "80px" }}
-          fontSize={{ base: "28px", md: "40px", lg: "49px" }}
+          fontSize={{ base: "28px", md: "40px", lg: "47px" }}
         >
           <Flex
             justifyContent="center"
@@ -24,16 +24,19 @@ export const Profile = () => {
             direction={{ base: "column", lg: "column" }}
           >
             <Text textAlign={"center"}>
-              <b>Hello &#128075;&#127995; , Fellow  &lt; Developers /&gt;</b>
+              <b>Hello &#128075;&#127995; , Fellow &lt; Developers /&gt;</b>
             </Text>
             <Text textAlign={"center"}>
               <b>I'm </b>
-              <b style={{ color: "#00B5D8" }}>  Janhavi Prabhu</b>
+              <b style={{ color: "#00B5D8" }}> Janhavi Prabhu</b>
             </Text>
           </Flex>
           <Box textAlign={"center"}>Full Stack Developer</Box>
           <Box textAlign={"center"}>
-            <a href="https://drive.google.com/file/d/1iz01mtNZE-e1O-OPiFp4MoTKUBYHkEtc/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/1iz01mtNZE-e1O-OPiFp4MoTKUBYHkEtc/view?usp=sharing"
+              target={"_blank"}
+            >
               {" "}
               <Button
                 _hover={{ backgroundColor: "#00B5D6" }}

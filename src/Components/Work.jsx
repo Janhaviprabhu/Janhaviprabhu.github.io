@@ -22,13 +22,16 @@ export const Work = () => {
         gap={10}
         boxShadow="rgba(10, 104, 204, 0.6) 0px 0px 0px 2px"
         m={"auto"}
-        width={{ base: "65%", lg: "75%" }}
+        width={{ base: "65%", md: "70%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
         ml={{ base: "125px", sm: "160px", md: "165px", lg: "350px" }}
       >
         <Box m={"auto"}>
-          <a href="https://cheery-cannoli-6ff64b.netlify.app/">
+          <a
+            href="https://cheery-cannoli-6ff64b.netlify.app/"
+            target={"_blank"}
+          >
             <Image
               className="project_image"
               src="https://user-images.githubusercontent.com/97351159/199207187-1605a618-2e09-4112-90b0-b752d9d53495.png"
@@ -43,7 +46,7 @@ export const Work = () => {
             fontSize={{ base: "14px", md: "18px", lg: "22px" }}
             fontWeight="600"
           >
-            PharmEasy.in
+            PharmEasy clone
           </Text>
           <Text
             fontSize={{ base: "12px", md: "14px", lg: "16px" }}
@@ -71,12 +74,15 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "50%", lg: "50%" }}
+            w={{ base: "20%", md: "15%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
           >
-            <a href="https://cheery-cannoli-6ff64b.netlify.app/">
+            <a
+              href="https://cheery-cannoli-6ff64b.netlify.app/"
+              target={"_blank"}
+            >
               <Button
                 mt={3}
                 color={"white"}
@@ -90,7 +96,10 @@ export const Work = () => {
                 Watch Live
               </Button>
             </a>
-            <a href="https://github.com/Janhaviprabhu/shrill-point-7214">
+            <a
+              href="https://github.com/Janhaviprabhu/shrill-point-7214"
+              target={"_blank"}
+            >
               <Button
                 mt={3}
                 color="white"
@@ -115,6 +124,7 @@ export const Work = () => {
         borderRadius={6}
         gap={10}
         boxShadow="rgba(10, 104, 204, 0.6) 0px 0px 0px 2px"
+        target={"_blank"}
         m={"auto"}
         width={{ base: "65%", lg: "75%" }}
         alignContent={"center"}
@@ -137,7 +147,7 @@ export const Work = () => {
             fontSize={{ base: "14px", md: "18px", lg: "22px" }}
             fontWeight="600"
           >
-            boat-lifestyle.com
+            boat-lifestyle clone
           </Text>
           <Text
             fontSize={{ base: "12px", md: "14px", lg: "16px" }}
@@ -167,18 +177,21 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "50%", lg: "50%" }}
+            w={{ base: "20%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
           >
-            <a href="https://boat-lifestyle-clone-7.netlify.app/index.html">
+            <a
+              href="https://boat-lifestyle-clone-7.netlify.app/index.html"
+              target={"_blank"}
+            >
               <Button
                 mt={3}
                 color={"white"}
                 _hover={{ background: "#0ab2d9" }}
                 background={"#088aa8"}
-                width={{ base: "20px", lg: "100px" }}
+                width={{ base: "20px", md: "30px", lg: "100px" }}
                 fontSize={{ base: "7px", lg: "14px" }}
                 textAlign={"center"}
               >
@@ -186,7 +199,10 @@ export const Work = () => {
                 Watch Live
               </Button>
             </a>
-            <a href="https://github.com/Anantk05/boat-lifestyle.com-Clone">
+            <a
+              href="https://github.com/Anantk05/boat-lifestyle.com-Clone"
+              target={"_blank"}
+            >
               <Button
                 mt={3}
                 color="white"
@@ -217,7 +233,10 @@ export const Work = () => {
         ml={{ base: "125px", sm: "160px", md: "165px", lg: "350px" }}
       >
         <Box m={"auto"}>
-          <a href="https://zippy-frangipane-5fe9c4.netlify.app/mealofday.html">
+          <a
+            href="https://zippy-frangipane-5fe9c4.netlify.app/mealofday.html"
+            target={"_blank"}
+          >
             <Image
               className="project_image"
               src="https://user-images.githubusercontent.com/97351159/199303093-bbb270ec-b202-4dfd-918f-223f62629262.png"
@@ -239,8 +258,8 @@ export const Work = () => {
             mt={{ base: "5px", md: "10px", lg: "12px" }}
             lineHeight={{ base: "20px", md: "25px", lg: "30px" }}
           >
-            Mal.com is a food app where you can search for any favorite food and
-            get meal for the day.
+            Meal.com is a food app where you can search for any favorite food
+            and get meal for the day.
           </Text>
           <Text fontSize={{ base: "12px", md: "14px", lg: "16px" }}>
             A solo project completed in 1 day
@@ -261,12 +280,15 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "50%", lg: "50%" }}
+            w={{ base: "20%", md: "15%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
           >
-            <a href="https://cheery-cannoli-6ff64b.netlify.app/">
+            <a
+              href="https://zippy-frangipane-5fe9c4.netlify.app/mealofday.html"
+              target={"_blank"}
+            >
               <Button
                 mt={3}
                 color={"white"}
@@ -280,7 +302,10 @@ export const Work = () => {
                 Watch Live
               </Button>
             </a>
-            <a href="https://github.com/Janhaviprabhu/Food-app">
+            <a
+              href="https://github.com/Janhaviprabhu/Food-app"
+              target={"_blank"}
+            >
               <Button
                 mt={3}
                 color="white"
@@ -311,7 +336,7 @@ export const Work = () => {
         ml={{ base: "125px", sm: "160px", md: "165px", lg: "350px" }}
       >
         <Box m={"auto"}>
-          <a href="https://fancy-brioche-5d361a.netlify.app/">
+          <a href="https://fancy-brioche-5d361a.netlify.app/" target={"_blank"}>
             <Image
               className="project_image"
               src="https://i.imgur.com/rq2WHQR.png"
@@ -326,7 +351,7 @@ export const Work = () => {
             fontSize={{ base: "14px", md: "18px", lg: "22px" }}
             fontWeight="600"
           >
-            dermstore.in
+            dermstore clone
           </Text>
           <Text
             fontSize={{ base: "12px", md: "14px", lg: "16px" }}
@@ -355,12 +380,16 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "50%", lg: "50%" }}
+            background={"red"}
+            w={{ base: "20%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
-            gap={{ base: "10px", lg: "40px" }}
+            gap={{ base: "10px", md: "20px", lg: "40px" }}
           >
-            <a href="https://zippy-frangipane-5fe9c4.netlify.app/mealofday.html">
+            <a
+              href="https://fancy-brioche-5d361a.netlify.app/"
+              target={"_blank"}
+            >
               <Button
                 mt={3}
                 color={"white"}
@@ -374,7 +403,10 @@ export const Work = () => {
                 Watch Live
               </Button>
             </a>
-            <a href="https://github.com/Janhaviprabhu/Food-app">
+            <a
+              href="https://github.com/Janhaviprabhu/Food-app"
+              target={"_blank"}
+            >
               <Button
                 mt={3}
                 color="white"

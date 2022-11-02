@@ -30,7 +30,10 @@ function App() {
             <Box className="list">Project</Box>
             <Box className="list">Contact</Box>
             <Box className="list">
-              <a href="https://drive.google.com/file/d/1iz01mtNZE-e1O-OPiFp4MoTKUBYHkEtc/view?usp=sharing">
+              <a
+                href="https://drive.google.com/file/d/1iz01mtNZE-e1O-OPiFp4MoTKUBYHkEtc/view?usp=sharing"
+                target={"_blank"}
+              >
                 Resume
               </a>
             </Box>
@@ -81,7 +84,7 @@ function App() {
                 bg={"#088aa8"}
                 mb={6}
                 width={"40px"}
-                src="https://cdn-user-icons.flaticon.com/73546/73546517/1666291863456.svg?token=exp=1666292712~hmac=b72e20652ab74d24e47b6baba42416b2"
+                src="https://cdn-user-icons.flaticon.com/73546/73546517/1666291863456.svg?token=exp=1667368877~hmac=554552000c4e4d9500b055f20aad6549"
               />
             </Box>
             <Box className="bar" bg={"#088aa8"}>
@@ -89,7 +92,7 @@ function App() {
                 bg={"#088aa8"}
                 mb={6}
                 width={"40px"}
-                src="https://cdn-user-icons.flaticon.com/73546/73546517/1666292017412.svg?token=exp=1666292866~hmac=c4f2e7ba3e7eeed64e8131f3960e24de"
+                src="https://cdn-user-icons.flaticon.com/73546/73546517/1666292017412.svg?token=exp=1667368877~hmac=3462805ab4e9b949bec998b857d4d714"
               />
             </Box>
             <Box className="bar" bg={"#088aa8"}>
@@ -97,7 +100,7 @@ function App() {
                 bg={"#088aa8"}
                 mb={10}
                 width={"40px"}
-                src="https://cdn-user-icons.flaticon.com/73546/73546517/1666292196116.svg?token=exp=1666293045~hmac=3e2c4d3f69a388d1b2ab92fe4293035b"
+                src="https://cdn-user-icons.flaticon.com/73546/73546517/1666292196116.svg?token=exp=1667368877~hmac=197abc24b53b0559b8b92b605dc3d3af"
               />
             </Box>
             <Box
@@ -108,11 +111,12 @@ function App() {
               mt={10}
             >
               <Switch
-              size={{base:"sm"}}
+                ml={{ base: "10px" }}
+                size={{ base: "sm" }}
                 className="bar"
                 pb={"670px"}
                 bg={"#088aa8"}
-                colorScheme="red"
+                colorScheme="cyan"
               ></Switch>
             </Box>
           </VStack>
