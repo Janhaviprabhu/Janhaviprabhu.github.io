@@ -380,7 +380,6 @@ export const Work = () => {
           </Text>
 
           <Flex
-            background={"red"}
             w={{ base: "20%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
