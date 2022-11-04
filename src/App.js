@@ -6,9 +6,22 @@ import { About } from "./Components/About";
 import { Skills } from "./Components/Skills";
 import { Work } from "./Components/Work";
 import { Contact } from "./Components/Contact";
+import { useRef } from "react";
 
 
 function App() {
+  const Profileref=useRef(null)
+  const Aboutref=useRef(null)
+  const  Skillsref=useRef(null)
+  const Projectref=useRef(null)
+  const Contactref=useRef(null)
+
+   const handleScrollTo = (ref) => {
+     window.scrollTo({
+       top: ref.current.offsetTop,
+       behavior: "smooth",
+     });
+   };
  
   return (
     <div className="App">
@@ -24,13 +37,21 @@ function App() {
             Janhavi
           </Box>
           <Box bg={"#088aa8"} className="middlebar" mt={10}>
-            <Box className="list" p={1}>
+            <Box className="list" onClick={() => handleScrollTo(Profileref)}>
               Home
             </Box>
-            <Box className="list">About</Box>
-            <Box className="list">Skills</Box>
-            <Box className="list">Project</Box>
-            <Box className="list">Contact</Box>
+            <Box className="list" onClick={() => handleScrollTo(Aboutref)}>
+              About
+            </Box>
+            <Box onClick={() => handleScrollTo(Skillsref)} className="list">
+              Skills
+            </Box>
+            <Box onClick={() => handleScrollTo(Projectref)} className="list">
+              Project
+            </Box>
+            <Box className="list" onClick={() => handleScrollTo(Contactref)}>
+              Contact
+            </Box>
             <Box className="list">
               <a
                 href="https://drive.google.com/file/d/1YcBD5g0DmC-tmxuAL7GPBTFdVDal9e7I/view"
@@ -40,9 +61,6 @@ function App() {
               </a>
             </Box>
           </Box>
-          {/* <Box mt={20} bg={"#088aa8"}>
-            <Switch colorScheme={"cyan"} bg={"#088aa8"}></Switch>
-          </Box> */}
         </Box>
         <Box className="smallsidebar">
           {" "}
@@ -68,6 +86,7 @@ function App() {
             </Box>
             <Box className="bar" bg={"#088aa8"}>
               <Image
+                onClick={() => handleScrollTo(Profileref)}
                 bg={"#088aa8"}
                 mb={6}
                 width={"50px"}
@@ -76,6 +95,7 @@ function App() {
             </Box>
             <Box className="bar" bg={"#088aa8"}>
               <Image
+                onClick={() => handleScrollTo(Aboutref)}
                 bg={"#088aa8"}
                 mb={6}
                 width={"50px"}
@@ -84,6 +104,7 @@ function App() {
             </Box>
             <Box className="bar" bg={"#088aa8"}>
               <Image
+                onClick={() => handleScrollTo(Skillsref)}
                 bg={"#088aa8"}
                 mb={6}
                 width={"40px"}
@@ -92,6 +113,7 @@ function App() {
             </Box>
             <Box className="bar" bg={"#088aa8"}>
               <Image
+                onClick={() => handleScrollTo(Projectref)}
                 bg={"#088aa8"}
                 mb={6}
                 width={"40px"}
@@ -100,44 +122,29 @@ function App() {
             </Box>
             <Box pb={"770px"} className="bar" bg={"#088aa8"}>
               <Image
+                onClick={() => handleScrollTo(Contactref)}
                 bg={"#088aa8"}
                 mb={10}
                 width={"40px"}
                 src="https://cdn-user-icons.flaticon.com/73546/73546517/1666292196116.svg?token=exp=1667368877~hmac=197abc24b53b0559b8b92b605dc3d3af"
               />
             </Box>
-            {/* <Box
-              width={{ base: "100px" }}
-              className="bar"
-              p={"25px"}
-              bg={"#088aa8"}
-              mt={10}
-            >
-              <Switch
-                ml={{ base: "10px" }}
-                size={{ base: "sm" }}
-                className="bar"
-                pb={"770px"}
-                bg={"#088aa8"}
-                colorScheme="cyan"
-              ></Switch>
-            </Box> */}
           </VStack>
         </Box>
       </Flex>
-      <Box>
+      <Box ref={Profileref}>
         <Profile />
       </Box>
-      <Box>
+      <Box ref={Aboutref}>
         <About />
       </Box>
-      <Box>
+      <Box ref={Skillsref}>
         <Skills />
       </Box>
-      <Box>
+      <Box ref={Projectref}>
         <Work />
       </Box>
-      <Box>
+      <Box ref={Contactref}>
         <Contact />
       </Box>
     </div>
