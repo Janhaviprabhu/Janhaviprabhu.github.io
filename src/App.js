@@ -1,4 +1,3 @@
-
 import "./App.css";
 
 import { Box, Flex, VStack, Image, Switch } from "@chakra-ui/react";
@@ -6,8 +5,11 @@ import { Profile } from "./Components/profile";
 import { About } from "./Components/About";
 import { Skills } from "./Components/Skills";
 import { Work } from "./Components/Work";
+import { Contact } from "./Components/Contact";
+
 
 function App() {
+ 
   return (
     <div className="App">
       <Flex>
@@ -38,11 +40,12 @@ function App() {
               </a>
             </Box>
           </Box>
-          <Box mt={20} bg={"#088aa8"}>
+          {/* <Box mt={20} bg={"#088aa8"}>
             <Switch colorScheme={"cyan"} bg={"#088aa8"}></Switch>
-          </Box>
+          </Box> */}
         </Box>
         <Box className="smallsidebar">
+          {" "}
           <VStack
             width={{ base: "100px" }}
             className="sidebarII"
@@ -68,7 +71,7 @@ function App() {
                 bg={"#088aa8"}
                 mb={6}
                 width={"50px"}
-                src="https://cdn-user-icons.flaticon.com/73546/73546517/1666291396518.svg?token=exp=1666292246~hmac=48273bb60839ee7dca1d773d381d5e04"
+                src="https://cdn-user-icons.flaticon.com/73546/73546517/1667575019988.svg?token=exp=1667575924~hmac=918264545f897786f4a4b5a0fa869e23"
               />
             </Box>
             <Box className="bar" bg={"#088aa8"}>
@@ -76,7 +79,7 @@ function App() {
                 bg={"#088aa8"}
                 mb={6}
                 width={"50px"}
-                src="https://cdn-user-icons.flaticon.com/73546/73546517/1666291290816.svg?token=exp=1666292140~hmac=e72b926596d753c9384efc8d63415bb6"
+                src="https://cdn-user-icons.flaticon.com/73546/73546517/1667575295731.svg?token=exp=1667576199~hmac=8270b2093543abedb96321ce0a0ec5f1"
               />
             </Box>
             <Box className="bar" bg={"#088aa8"}>
@@ -95,7 +98,7 @@ function App() {
                 src="https://cdn-user-icons.flaticon.com/73546/73546517/1666292017412.svg?token=exp=1667368877~hmac=3462805ab4e9b949bec998b857d4d714"
               />
             </Box>
-            <Box className="bar" bg={"#088aa8"}>
+            <Box pb={"770px"} className="bar" bg={"#088aa8"}>
               <Image
                 bg={"#088aa8"}
                 mb={10}
@@ -103,7 +106,7 @@ function App() {
                 src="https://cdn-user-icons.flaticon.com/73546/73546517/1666292196116.svg?token=exp=1667368877~hmac=197abc24b53b0559b8b92b605dc3d3af"
               />
             </Box>
-            <Box
+            {/* <Box
               width={{ base: "100px" }}
               className="bar"
               p={"25px"}
@@ -114,11 +117,11 @@ function App() {
                 ml={{ base: "10px" }}
                 size={{ base: "sm" }}
                 className="bar"
-                pb={"670px"}
+                pb={"770px"}
                 bg={"#088aa8"}
                 colorScheme="cyan"
               ></Switch>
-            </Box>
+            </Box> */}
           </VStack>
         </Box>
       </Flex>
@@ -133,6 +136,9 @@ function App() {
       </Box>
       <Box>
         <Work />
+      </Box>
+      <Box>
+        <Contact />
       </Box>
     </div>
   );

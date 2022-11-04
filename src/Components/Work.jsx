@@ -75,7 +75,7 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "20%", md: "15%", lg: "50%" }}
+            w={{ base: "50%", md: "15%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -178,7 +178,7 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "20%", md: "18%", lg: "50%" }}
+            w={{ base: "50%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -281,7 +281,7 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "20%", md: "15%", lg: "50%" }}
+            w={{ base: "50%", md: "15%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -381,7 +381,7 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "20%", md: "18%", lg: "50%" }}
+            w={{ base: "50%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", md: "20px", lg: "40px" }}

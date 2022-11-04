@@ -1,105 +1,82 @@
 * {
   background-color: #ffffff;
-margin: 0;
-padding: 0;
-font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 /* .App{
   display: flex;
 
 } */
-.menuicon{
-   display: none; 
+.menuicon {
+  display: none;
   cursor: pointer;
 
   position: fixed;
- 
+
   top: 1rem;
   right: 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   font-size: 1.5rem;
   background-color: #088aa8;
-  padding: .5rem 1rem .7rem 1rem
+  padding: 0.5rem 1rem 0.7rem 1rem;
 }
 
-
-
-
-.sidebar{
-
-  background-color:#088aa8 ;
+.sidebar {
+  background-color: #088aa8;
   width: 20%;
   height: 100%;
- 
-position: fixed;
+
+  position: fixed;
   text-align: center;
-z-index: 1000;
-overflow: hidden;
-cursor: pointer;
+  z-index: 1000;
+  overflow: hidden;
+  cursor: pointer;
 }
-.middlebar{
+.middlebar {
   font-size: 19px;
 }
-.list{
+.list {
   padding: 10px;
   font-size: 19px;
   color: white;
-  background-color:#088aa8 ;
+  background-color: #088aa8;
 }
-.list:hover{
-  letter-spacing: .3rem;
+.list:hover {
+  letter-spacing: 0.3rem;
   text-decoration: underline;
 }
 
-
-
-
-@media (max-width:1660px){
-.bar{
-  display: none;
-}
-
-}
-@media (max-width:991px){
-  .bar{
-    display: block;
-    
+@media (max-width: 1660px) {
+  .bar {
+    display: none;
   }
-  .sidebar{
+}
+@media (max-width: 991px) {
+  .bar {
+    display: block;
+  }
+  .smallsidebar {
+    position: fixed;
+    height: 100%;
+  }
+  .sidebar {
     display: none;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:991px){
-  .menuicon{
+@media (max-width: 991px) {
+  .menuicon {
     display: inherit;
   }
-
 }
 /* project section  style */
 
-.project_image:hover{
- filter: alpha(opacity=70);
-    opacity: 0.6;
-    cursor: pointer;
+.project_image:hover {
+  filter: alpha(opacity=70);
+  opacity: 0.6;
+  cursor: pointer;
 }
-.project_box:hover{
-   transform: scale(0.99);
-  
+.project_box:hover {
+  transform: scale(0.99);
 }
