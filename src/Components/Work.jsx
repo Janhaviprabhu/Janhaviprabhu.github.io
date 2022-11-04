@@ -5,8 +5,9 @@ export const Work = () => {
   return (
     <>
       <Text
+      mt={10}
         mb={10}
-        ml={{ base: "120px", sm: "140px", md: "165px", lg: "350px" }}
+        ml={{ base: "120px", sm: "140px", md: "172px", lg: "350px" }}
         textAlign="center"
         color={"#00B5D8"}
         fontSize={{ base: "20px", md: "22px", lg: "40px" }}
@@ -22,10 +23,10 @@ export const Work = () => {
         gap={10}
         boxShadow="rgba(10, 104, 204, 0.6) 0px 0px 0px 2px"
         m={"auto"}
-        width={{ base: "65%", md: "70%", lg: "75%" }}
+        width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "125px", sm: "160px", md: "165px", lg: "350px" }}
+        ml={{ base: "125px", sm: "180px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a
@@ -126,10 +127,10 @@ export const Work = () => {
         boxShadow="rgba(10, 104, 204, 0.6) 0px 0px 0px 2px"
         target={"_blank"}
         m={"auto"}
-        width={{ base: "65%", lg: "75%" }}
+        width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "125px", sm: "160px", md: "165px", lg: "350px" }}
+        ml={{ base: "125px", sm: "180px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a href="https://boat-lifestyle-clone-7.netlify.app/index.html">
@@ -227,10 +228,10 @@ export const Work = () => {
         gap={10}
         boxShadow="rgba(10, 104, 204, 0.6) 0px 0px 0px 2px"
         m={"auto"}
-        width={{ base: "65%", lg: "75%" }}
+        width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "125px", sm: "160px", md: "165px", lg: "350px" }}
+        ml={{ base: "125px", sm: "180px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a
@@ -330,10 +331,10 @@ export const Work = () => {
         gap={10}
         boxShadow="rgba(10, 104, 204, 0.6) 0px 0px 0px 2px"
         m={"auto"}
-        width={{ base: "65%", lg: "75%" }}
+        width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "125px", sm: "160px", md: "165px", lg: "350px" }}
+        ml={{ base: "125px", sm: "180px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a href="https://fancy-brioche-5d361a.netlify.app/" target={"_blank"}>

@@ -9,7 +9,7 @@ export const Profile = () => {
         pr={10}
         gap={10}
         alignItems={{ base: "center", md: "center" }}
-        ml={{ base: "160px", sm: "200px", md: "255px", lg: "400px" }}
+        ml={{ base: "160px", sm: "200px", md: "215px", lg: "400px" }}
         mt={20}
         flexDirection={{ base: "column", lg: "row" }}
       >
@@ -34,7 +34,7 @@ export const Profile = () => {
           <Box textAlign={"center"}>Full Stack Developer</Box>
           <Box textAlign={"center"}>
             <a
-              href="https://drive.google.com/file/d/1iz01mtNZE-e1O-OPiFp4MoTKUBYHkEtc/view?usp=sharing"
+              href="https://drive.google.com/file/d/1YcBD5g0DmC-tmxuAL7GPBTFdVDal9e7I/view"
               target={"_blank"}
             >
               {" "}

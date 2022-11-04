@@ -1,10 +1,12 @@
-import { Box,  GridItem, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, GridItem, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import { GitStats } from "./GitStats";
+import { GitCalender } from "./GitCalender";
 
 export const Skills = () => {
   return (
     <>
       <Box
-        ml={{ base: "190px", sm: "90px", md: "80px", lg: "170px" }}
+        ml={{ base: "190px", sm: "90px", md: "35px", lg: "170px" }}
         w={{ base: "60%", sm: "63%", md: "90%", lg: "80%" }}
         m="auto"
         mt="5%"
@@ -216,7 +218,7 @@ export const Skills = () => {
             <Image
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
-              src="https://appjoy.org/wp-content/uploads/2016/07/heroku-logo-2.png"
+              src="https://cdn.iconscout.com/icon/free/png-128/heroku-2752161-2284978.png"
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text textAlign="center" mt={{ base: "10px", lg: "15px" }}>
@@ -235,6 +237,12 @@ export const Skills = () => {
             </Text>
           </Box>
         </SimpleGrid>
+      </Box>
+      <Box>
+        <GitCalender />
+      </Box>
+      <Box>
+        <GitStats />
       </Box>
     </>
   );

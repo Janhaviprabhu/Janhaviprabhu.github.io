@@ -1,9 +1,10 @@
 import { Box ,Text} from "@chakra-ui/react"
+import { GitCalender } from "./GitCalender";
 
 export const About=()=>{
     return (
       <>
-        <Box ml={{ base: "160px", sm: "160px", md: "255px", lg: "390px" }}>
+        <Box ml={{ base: "160px", sm: "160px", md: "175px", lg: "390px" }}>
           <Text
             textAlign={"center"}
             color={"#00B5D8"}
@@ -25,6 +26,7 @@ export const About=()=>{
             my knowledge.{" "}
           </Text>
         </Box>
+        <Box></Box>
       </>
     );
    

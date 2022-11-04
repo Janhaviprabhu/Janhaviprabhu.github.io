@@ -31,7 +31,7 @@ function App() {
             <Box className="list">Contact</Box>
             <Box className="list">
               <a
-                href="https://drive.google.com/file/d/1iz01mtNZE-e1O-OPiFp4MoTKUBYHkEtc/view?usp=sharing"
+                href="https://drive.google.com/file/d/1YcBD5g0DmC-tmxuAL7GPBTFdVDal9e7I/view"
                 target={"_blank"}
               >
                 Resume
