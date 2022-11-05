@@ -1,28 +1,32 @@
 import "./App.css";
 
-import { Box, Flex, VStack, Image, Switch } from "@chakra-ui/react";
+import { Box, Flex, VStack, Image, Switch, Text } from "@chakra-ui/react";
 import { Profile } from "./Components/profile";
 import { About } from "./Components/About";
 import { Skills } from "./Components/Skills";
 import { Work } from "./Components/Work";
 import { Contact } from "./Components/Contact";
 import { useRef } from "react";
-
+import { AiFillContacts, AiFillHome } from "react-icons/ai";
+import { SiAboutdotme } from "react-icons/si";
+import { GiSkills } from "react-icons/gi";
+import { RiComputerFill } from "react-icons/ri";
+import { AiFillProfile } from "react-icons/ai";
 
 function App() {
-  const Profileref=useRef(null)
-  const Aboutref=useRef(null)
-  const  Skillsref=useRef(null)
-  const Projectref=useRef(null)
-  const Contactref=useRef(null)
+  const Profileref = useRef(null);
+  const Aboutref = useRef(null);
+  const Skillsref = useRef(null);
+  const Projectref = useRef(null);
+  const Contactref = useRef(null);
 
-   const handleScrollTo = (ref) => {
-     window.scrollTo({
-       top: ref.current.offsetTop,
-       behavior: "smooth",
-     });
-   };
- 
+  const handleScrollTo = (ref) => {
+    window.scrollTo({
+      top: ref.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="App">
       <Flex>
@@ -85,49 +89,72 @@ function App() {
               JP
             </Box>
             <Box className="bar" bg={"#088aa8"}>
-              <Image
+              <Text
                 onClick={() => handleScrollTo(Profileref)}
-                bg={"#088aa8"}
                 mb={6}
-                width={"50px"}
-                src="https://cdn-user-icons.flaticon.com/73546/73546517/1667575019988.svg?token=exp=1667575924~hmac=918264545f897786f4a4b5a0fa869e23"
-              />
+                fontSize={25}
+                bg={"#088aa8"}
+              >
+                <AiFillHome style={{ background: "#088aa8" }} color="white" />
+              </Text>
             </Box>
             <Box className="bar" bg={"#088aa8"}>
-              <Image
+              <Text
                 onClick={() => handleScrollTo(Aboutref)}
-                bg={"#088aa8"}
                 mb={6}
-                width={"50px"}
-                src="https://cdn-user-icons.flaticon.com/73546/73546517/1667575295731.svg?token=exp=1667576199~hmac=8270b2093543abedb96321ce0a0ec5f1"
-              />
+                fontSize={25}
+                bg={"#088aa8"}
+              >
+                <SiAboutdotme style={{ background: "#088aa8" }} color="white" />
+              </Text>
             </Box>
             <Box className="bar" bg={"#088aa8"}>
-              <Image
+              <Text
                 onClick={() => handleScrollTo(Skillsref)}
-                bg={"#088aa8"}
                 mb={6}
-                width={"40px"}
-                src="https://cdn-user-icons.flaticon.com/73546/73546517/1666291863456.svg?token=exp=1667368877~hmac=554552000c4e4d9500b055f20aad6549"
-              />
+                fontSize={25}
+                bg={"#088aa8"}
+              >
+                <GiSkills style={{ background: "#088aa8" }} color="white" />
+              </Text>
             </Box>
             <Box className="bar" bg={"#088aa8"}>
-              <Image
+              <Text
                 onClick={() => handleScrollTo(Projectref)}
-                bg={"#088aa8"}
                 mb={6}
-                width={"40px"}
-                src="https://cdn-user-icons.flaticon.com/73546/73546517/1666292017412.svg?token=exp=1667368877~hmac=3462805ab4e9b949bec998b857d4d714"
-              />
+                fontSize={25}
+                bg={"#088aa8"}
+              >
+                <RiComputerFill
+                  style={{ background: "#088aa8" }}
+                  color="white"
+                />
+              </Text>
+            </Box>
+            <Box className="bar" bg={"#088aa8"}>
+              <Text
+                onClick={() => handleScrollTo(Contactref)}
+                mb={6}
+                fontSize={25}
+                bg={"#088aa8"}
+              >
+                <AiFillContacts
+                  style={{ background: "#088aa8" }}
+                  color="white"
+                />
+              </Text>
             </Box>
             <Box pb={"770px"} className="bar" bg={"#088aa8"}>
-              <Image
-                onClick={() => handleScrollTo(Contactref)}
-                bg={"#088aa8"}
-                mb={10}
-                width={"40px"}
-                src="https://cdn-user-icons.flaticon.com/73546/73546517/1666292196116.svg?token=exp=1667368877~hmac=197abc24b53b0559b8b92b605dc3d3af"
-              />
+              <a
+                href="https://drive.google.com/file/d/1YcBD5g0DmC-tmxuAL7GPBTFdVDal9e7I/view"
+                target={"_blank"}
+              >
+                <Text mb={6} fontSize={25} bg={"#088aa8"} color="white">
+                  <AiFillProfile
+                    style={{ background: "#088aa8", color: "white" }}
+                  />
+                </Text>
+              </a>
             </Box>
           </VStack>
         </Box>
