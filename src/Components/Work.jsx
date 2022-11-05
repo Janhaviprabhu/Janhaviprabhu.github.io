@@ -1,5 +1,6 @@
 import { AspectRatio, Box,Button,Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import "../App.css";
+import {motion} from "framer-motion"
 
 export const Work = () => {
   return (
@@ -16,6 +17,7 @@ export const Work = () => {
       </Text>
 
       <SimpleGrid
+      
         className="project_box"
         mt={10}
         p={30}

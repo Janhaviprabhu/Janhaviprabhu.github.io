@@ -22,6 +22,7 @@ export const GitCalender = () => {
   return (
     <>
       <Text
+      
         ml={{ base: "120px", sm: "140px", md: "172px", lg: "350px" }}
         fontWeight={600}
         textAlign="center"

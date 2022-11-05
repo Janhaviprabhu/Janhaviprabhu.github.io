@@ -7,6 +7,7 @@ export const Contact = () => {
   return (
     <>
       <Text
+        bg={"#f5fcff"}
         ml={{ base: "130px", sm: "160px", md: "175px", lg: "370px" }}
         mt={10}
         textAlign="center"
@@ -16,6 +17,7 @@ export const Contact = () => {
         Contact Me
       </Text>
       <Flex
+        bg={"#f5fcff"}
         mt={10}
         textAlign={"center"}
         alignContent="center"
@@ -74,19 +76,22 @@ export const Contact = () => {
         fontSize={{ base: "13px", md: "13px", lg: "20px" }}
       >
         {/* <Flex alignContent={"center"}> */}
-          <Text
-            fontSize={{ base: "22px", md: "26px", lg: "36px" }}
-            ml={{ base: "110px", sm: "160px", md: "300px", lg: "545px" }}
-          >
-            <GrLocation />
-          </Text>
-          <Text ml={{ base: "70px", sm: "100px", md: "265px", lg: "460px" }}>
-            {" "}
-            Mumbai, Maharashtra
-          </Text>
+        <Text
+          fontSize={{ base: "22px", md: "26px", lg: "36px" }}
+          ml={{ base: "110px", sm: "160px", md: "300px", lg: "545px" }}
+        >
+          <GrLocation />
+        </Text>
+        <Text ml={{ base: "70px", sm: "100px", md: "265px", lg: "460px" }}>
+          {" "}
+          Mumbai, Maharashtra
+        </Text>
         {/* </Flex> */}
       </Text>
-      <Box mt={10} ml={{ base: "100px", sm: "160px", md: "335px", lg: "770px" }}>
+      <Box
+        mt={10}
+        ml={{ base: "100px", sm: "160px", md: "335px", lg: "770px" }}
+      >
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1161003172!2d72.74109806321596!3d19.082197838151572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1667570151649!5m2!1sen!2sin"
           w={{ base: "2px", sm: "90px", md: "35px", lg: "600px" }}

@@ -4,7 +4,10 @@ import { GitCalender } from "./GitCalender";
 export const About=()=>{
     return (
       <>
-        <Box ml={{ base: "160px", sm: "160px", md: "175px", lg: "390px" }}>
+        <Box
+          bg={"#f5fcff"}
+          ml={{ base: "130px", sm: "140px", md: "175px", lg: "390px" }}
+        >
           <Text
             textAlign={"center"}
             color={"#00B5D8"}
@@ -14,6 +17,8 @@ export const About=()=>{
           >
             About Me
           </Text>
+        </Box>
+        <Box ml={{ base: "150px", sm: "140px", md: "175px", lg: "390px" }}>
           <Text
             mt={{ base: "7px", md: "10px" }}
             fontSize={{ base: "15px", md: "18px", lg: "20px" }}
@@ -26,7 +31,6 @@ export const About=()=>{
             my knowledge.{" "}
           </Text>
         </Box>
-        <Box></Box>
       </>
     );
    

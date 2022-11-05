@@ -4,6 +4,7 @@ export const GitStats=()=>{
     return (
       <>
         <Text
+          bg={"#f5fcff"}
           ml={{ base: "120px", sm: "140px", md: "172px", lg: "350px" }}
           textAlign="center"
           fontSize={{ base: "12px", md: "18px", lg: "20px" }}
@@ -42,6 +43,7 @@ export const GitStats=()=>{
         </Flex>
 
         <Flex
+          bg={"#f5fcff"}
           ml={{ base: "125px", sm: "150px", md: "155px", lg: "478px" }}
           width={{ base: "70%", md: "80%", lg: "60%" }}
           mt={{ base: "15px", md: "25px" }}
