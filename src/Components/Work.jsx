@@ -28,7 +28,7 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "125px", sm: "180px", md: "215px", lg: "350px" }}
+        ml={{ base: "121px", sm: "180px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a
@@ -132,7 +132,7 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "125px", sm: "180px", md: "215px", lg: "350px" }}
+        ml={{ base: "121px", sm: "180px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a href="https://boat-lifestyle-clone-7.netlify.app/index.html">
@@ -233,7 +233,7 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "125px", sm: "180px", md: "215px", lg: "350px" }}
+        ml={{ base: "121px", sm: "180px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a
@@ -336,7 +336,7 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "125px", sm: "180px", md: "215px", lg: "350px" }}
+        ml={{ base: "121px", sm: "180px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a href="https://fancy-brioche-5d361a.netlify.app/" target={"_blank"}>

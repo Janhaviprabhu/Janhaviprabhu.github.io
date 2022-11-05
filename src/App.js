@@ -13,6 +13,7 @@ import { GiSkills } from "react-icons/gi";
 import { RiComputerFill } from "react-icons/ri";
 import { AiFillProfile } from "react-icons/ai";
 
+
 function App() {
   const Profileref = useRef(null);
   const Aboutref = useRef(null);
@@ -91,7 +92,7 @@ function App() {
             <Box className="bar" bg={"#088aa8"}>
               <Text
                 onClick={() => handleScrollTo(Profileref)}
-                mb={6}
+                mb={10}
                 fontSize={25}
                 bg={"#088aa8"}
               >
@@ -101,7 +102,7 @@ function App() {
             <Box className="bar" bg={"#088aa8"}>
               <Text
                 onClick={() => handleScrollTo(Aboutref)}
-                mb={6}
+                mb={10}
                 fontSize={25}
                 bg={"#088aa8"}
               >
@@ -111,7 +112,7 @@ function App() {
             <Box className="bar" bg={"#088aa8"}>
               <Text
                 onClick={() => handleScrollTo(Skillsref)}
-                mb={6}
+                mb={10}
                 fontSize={25}
                 bg={"#088aa8"}
               >
@@ -121,7 +122,7 @@ function App() {
             <Box className="bar" bg={"#088aa8"}>
               <Text
                 onClick={() => handleScrollTo(Projectref)}
-                mb={6}
+                mb={10}
                 fontSize={25}
                 bg={"#088aa8"}
               >
@@ -134,7 +135,7 @@ function App() {
             <Box className="bar" bg={"#088aa8"}>
               <Text
                 onClick={() => handleScrollTo(Contactref)}
-                mb={6}
+                mb={10}
                 fontSize={25}
                 bg={"#088aa8"}
               >
@@ -144,12 +145,12 @@ function App() {
                 />
               </Text>
             </Box>
-            <Box pb={"770px"} className="bar" bg={"#088aa8"}>
+            <Box pb={"785px"} className="bar" bg={"#088aa8"}>
               <a
                 href="https://drive.google.com/file/d/1YcBD5g0DmC-tmxuAL7GPBTFdVDal9e7I/view"
                 target={"_blank"}
               >
-                <Text mb={6} fontSize={25} bg={"#088aa8"} color="white">
+                <Text mb={10} fontSize={27} bg={"#088aa8"} color="white">
                   <AiFillProfile
                     style={{ background: "#088aa8", color: "white" }}
                   />

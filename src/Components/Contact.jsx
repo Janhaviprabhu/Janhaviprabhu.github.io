@@ -2,6 +2,7 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 import { AiFillPhone } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { GrMail, GrLocation } from "react-icons/gr";
+import { BiCopyright } from "react-icons/bi";
 
 export const Contact = () => {
   return (
@@ -78,17 +79,17 @@ export const Contact = () => {
         {/* <Flex alignContent={"center"}> */}
         <Text
           fontSize={{ base: "22px", md: "26px", lg: "36px" }}
-          ml={{ base: "110px", sm: "160px", md: "300px", lg: "545px" }}
+          ml={{ base: "110px", sm: "160px", md: "300px", lg: "558px" }}
         >
           <GrLocation />
         </Text>
-        <Text ml={{ base: "70px", sm: "100px", md: "265px", lg: "460px" }}>
+        <Text ml={{ base: "70px", sm: "100px", md: "260px", lg: "485px" }}>
           {" "}
           Mumbai, Maharashtra
         </Text>
         {/* </Flex> */}
       </Text>
-      <Box
+      {/* <Box
         mt={10}
         ml={{ base: "100px", sm: "160px", md: "335px", lg: "770px" }}
       >
@@ -100,7 +101,23 @@ export const Contact = () => {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+      </Box> */}
+      <Box ml={{ base: "140px", sm: "100px", md: "390px", lg: "836px" }}>
+        Made with ❤️ by Janhavi Prabhu
       </Box>
+      <Text
+        mb={10}
+        display={"flex"}
+        gap={1}
+        alignContent={"center"}
+        ml={{ base: "180px", sm: "100px", md: "425px", lg: "875px" }}
+      >
+        Copyrights{" "}
+        <Text fontSize={25}>
+          <BiCopyright />
+        </Text>{" "}
+        2022
+      </Text>
     </>
   );
 };

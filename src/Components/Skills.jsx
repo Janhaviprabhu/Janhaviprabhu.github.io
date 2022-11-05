@@ -8,8 +8,8 @@ export const Skills = () => {
       <Box
       className="skillsbox"
         bg={"#f5fcff"}
-        ml={{ base: "190px", sm: "90px", md: "35px", lg: "170px" }}
-        w={{ base: "60%", sm: "63%", md: "90%", lg: "80%" }}
+        ml={{ base: "140px", sm: "90px", md: "35px", lg: "170px" }}
+        w={{ base: "85%", sm: "63%", md: "90%", lg: "80%" }}
         m="auto"
         mt="5%"
       >
@@ -170,7 +170,7 @@ export const Skills = () => {
 
         <Text
           bg={"#f5fcff"}
-          ml={{ base: "80px", sm: "210px", md: "165px", lg: "300px" }}
+          ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           textAlign="center"
           fontSize={{ base: "12px", md: "18px", lg: "20px" }}
           fontWeight={{ base: "600", md: "600" }}

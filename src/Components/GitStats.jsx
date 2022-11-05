@@ -16,7 +16,7 @@ export const GitStats=()=>{
         </Text>
         <Flex
           width={{ base: "70%", md: "80%", lg: "60%" }}
-          ml={{ base: "125px", sm: "150px", md: "155px", lg: "490px" }}
+          ml={{ base: "110px", sm: "150px", md: "155px", lg: "490px" }}
           direction={{ base: "column-reverse", md: "row" }}
           justifyContent="center"
           alignItems="center"
@@ -35,7 +35,7 @@ export const GitStats=()=>{
           <Box>
             <a href="https://github.com/Janhaviprabhu">
               <Image
-                width={{ base: "300px", md: "490px", lg: "500px" }}
+                width={{ base: "250px", md: "480px", lg: "500px" }}
                 src="https://github-readme-stats.vercel.app/api?username=Janhaviprabhu&count_private=true&show_icons=true"
               />
             </a>
@@ -44,7 +44,7 @@ export const GitStats=()=>{
 
         <Flex
           bg={"#f5fcff"}
-          ml={{ base: "125px", sm: "150px", md: "155px", lg: "478px" }}
+          ml={{ base: "110px", sm: "150px", md: "155px", lg: "478px" }}
           width={{ base: "70%", md: "80%", lg: "60%" }}
           mt={{ base: "15px", md: "25px" }}
           justifyContent="center"

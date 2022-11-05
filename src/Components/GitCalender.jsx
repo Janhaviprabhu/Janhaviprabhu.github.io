@@ -34,8 +34,8 @@ export const GitCalender = () => {
       </Text>
       <Flex
       
-        ml={{ base: "120px", sm: "140px", md: "152px", lg: "400px" }}
-        width={{ base: "70%", md: "80%", lg: "70%" }}
+        ml={{ base: "112px", sm: "140px", md: "152px", lg: "400px" }}
+        width={{ base: "69%", md: "80%", lg: "70%" }}
         justifyContent="center"
         alignItems="center"
         mt={{ base: "10px", md: "20px" }}
