@@ -6,7 +6,7 @@ export const Skills = () => {
   return (
     <>
       <Box
-      className="skillsbox"
+        className="skillsbox"
         bg={"#f5fcff"}
         ml={{ base: "140px", sm: "90px", md: "35px", lg: "170px" }}
         w={{ base: "85%", sm: "63%", md: "90%", lg: "80%" }}
@@ -143,6 +143,26 @@ export const Skills = () => {
               mt={{ base: "10px", lg: "15px" }}
             >
               Redux
+            </Text>
+          </GridItem>
+          <GridItem
+            bg={"#f5fcff"}
+            m="auto"
+            mt={{ base: "20px", md: "30px", lg: "6" }}
+          >
+            <Image
+              bg={"#f5fcff"}
+              p={2}
+              w={{ base: "45px", md: "80px", lg: "80px" }}
+              src="https://archive.org/download/github.com-chakra-ui-chakra-ui_-_2020-02-13_17-20-29/cover.jpg"
+              _hover={{ transform: "scale(1.2)" }}
+            />
+            <Text
+              bg={"#f5fcff"}
+              textAlign="center"
+              mt={{ base: "10px", lg: "15px" }}
+            >
+              Chakra Ui
             </Text>
           </GridItem>
 
