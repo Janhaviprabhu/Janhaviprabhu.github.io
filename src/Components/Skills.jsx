@@ -103,6 +103,26 @@ export const Skills = () => {
               JavaScript
             </Text>
           </Box>
+          <GridItem
+            bg={"#f5fcff"}
+            m="auto"
+            mt={{ base: "20px", md: "30px", lg: "6" }}
+          >
+            <Image
+              bg={"#f5fcff"}
+              p={2}
+              w={{ base: "45px", md: "80px", lg: "80px" }}
+              src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg"
+              _hover={{ transform: "scale(1.2)" }}
+            />
+            <Text
+              bg={"#f5fcff"}
+              textAlign="center"
+              mt={{ base: "10px", lg: "15px" }}
+            >
+              TypeScript
+            </Text>
+          </GridItem>
 
           <GridItem
             bg={"#f5fcff"}
@@ -268,27 +288,6 @@ export const Skills = () => {
               Express
             </Text>
           </Box>
-
-          <GridItem
-            bg={"#f5fcff"}
-            m="auto"
-            mt={{ base: "20px", md: "30px", lg: "6" }}
-          >
-            <Image
-              bg={"#f5fcff"}
-              p={2}
-              w={{ base: "45px", md: "80px", lg: "80px" }}
-              src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg"
-              _hover={{ transform: "scale(1.2)" }}
-            />
-            <Text
-              bg={"#f5fcff"}
-              textAlign="center"
-              mt={{ base: "10px", lg: "15px" }}
-            >
-              TypeScript
-            </Text>
-          </GridItem>
         </SimpleGrid>
 
         <Text
