@@ -114,8 +114,9 @@ export const Contact = () => {
           ml={{ base: "180px", sm: "250px", md: "465px", lg: "875px" }}
         >
           Copyrights{" "}
-          <Text fontSize={25}>
-            <BiCopyright />
+          <Text fontSize={18}>
+            {/* <BiCopyright /> */}
+            ©
           </Text>{" "}
           2022
         </Text>
