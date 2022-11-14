@@ -6,7 +6,7 @@ export const Work = () => {
   return (
     <>
       <Text
-      mt={10}
+        mt={10}
         mb={10}
         ml={{ base: "120px", sm: "140px", md: "172px", lg: "350px" }}
         textAlign="center"
@@ -15,11 +15,9 @@ export const Work = () => {
       >
         Projects
       </Text>
-
+      <Box mt={"60px"}></Box>
       <SimpleGrid
-      
         className="project_box"
-        mt={10}
         p={30}
         borderRadius={6}
         gap={10}
@@ -28,7 +26,109 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "121px", sm: "180px", md: "215px", lg: "350px" }}
+        ml={{ base: "121px", sm: "150px", md: "215px", lg: "350px" }}
+      >
+        <Box m={"auto"}>
+          <a href="https://five-metric.netlify.app/" target={"_blank"}>
+            <Image
+              className="project_image"
+              src="https://user-images.githubusercontent.com/97351159/201516132-0c3a6515-8808-49d3-831c-b43ccf09f2ff.png"
+              alt="Fivemetric"
+              objectFit="cover"
+            />
+          </a>
+        </Box>
+        <Box p={2} m={"auto"} textAlign={"center"}>
+          <Text
+            textDecoration={"-moz-initial"}
+            fontSize={{ base: "14px", md: "18px", lg: "22px" }}
+            fontWeight="600"
+          >
+            Five Metric
+          </Text>
+          <Text
+            fontSize={{ base: "12px", md: "14px", lg: "16px" }}
+            mt={{ base: "5px", md: "10px", lg: "12px" }}
+            lineHeight={{ base: "20px", md: "25px", lg: "30px" }}
+          >
+            This is an web application where you can easily track time on tasks
+            and projects, create time entries, capture hours which keeps record
+            of it.
+          </Text>
+          <Text fontSize={{ base: "12px", md: "14px", lg: "16px" }}>
+            A collaborative project completed in 5 days
+          </Text>
+          <Text
+            fontSize={{ base: "14px", md: "18px", lg: "22px" }}
+            mt={{ base: "5px", md: "10px", lg: "12px" }}
+            fontWeight="600"
+          >
+            Tech stack
+          </Text>
+          <Text
+            fontSize={{ base: "10px", md: "14px" }}
+            mt={{ base: "2px", md: "5px", lg: "2px" }}
+            letterSpacing={{ base: "0.5", lg: "2px" }}
+          >
+            REACT | REDUX | NODE | EXPRESS | MONGODB | MONGOOSE | CHAKRA UI
+          </Text>
+
+          <Flex
+            w={{ base: "50%", sm: "32%", md: "15%", lg: "50%" }}
+            alignContent={"center"}
+            margin={"auto"}
+            gap={{ base: "10px", lg: "40px" }}
+          >
+            <a
+              href="https://zippy-frangipane-5fe9c4.netlify.app/mealofday.html"
+              target={"_blank"}
+            >
+              <Button
+                mt={3}
+                color={"white"}
+                _hover={{ background: "#0ab2d9" }}
+                background={"#088aa8"}
+                width={{ base: "20px", lg: "100px" }}
+                fontSize={{ base: "7px", lg: "14px" }}
+                textAlign={"center"}
+              >
+                {" "}
+                Watch Live
+              </Button>
+            </a>
+            <a
+              href="https://github.com/Janhaviprabhu/Food-app"
+              target={"_blank"}
+            >
+              <Button
+                mt={3}
+                color="white"
+                _hover={{ background: "#0ab2d9" }}
+                background={"#088aa8"}
+                width={{ base: "20px", lg: "100px" }}
+                fontSize={{ base: "7px", lg: "14px" }}
+              >
+                View Code
+              </Button>
+            </a>
+          </Flex>
+        </Box>
+      </SimpleGrid>
+
+      {/* pharm easy clone */}
+      <Box mt={"60px"}></Box>
+      <SimpleGrid
+        className="project_box"
+        mt={10}
+        p={30}
+        borderRadius={6}
+        gap={10}
+        boxShadow="rgba(10, 104, 204, 0.6) 0px 0px 0px 2px"
+        m={"auto"}
+        width={{ base: "65%", sm: "65%", md: "67%", lg: "75%" }}
+        alignContent={"center"}
+        columns={[1, 1, 1, 2]}
+        ml={{ base: "121px", sm: "150px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a
@@ -77,7 +177,7 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "50%", md: "15%", lg: "50%" }}
+            w={{ base: "50%", sm: "32%", md: "15%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -132,7 +232,7 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "121px", sm: "180px", md: "215px", lg: "350px" }}
+        ml={{ base: "121px", sm: "150px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a href="https://boat-lifestyle-clone-7.netlify.app/index.html">
@@ -180,7 +280,7 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "50%", md: "18%", lg: "50%" }}
+            w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -222,8 +322,8 @@ export const Work = () => {
       </SimpleGrid>
 
       {/* food app */}
-      <Box mt={"60px"}></Box>
-      <SimpleGrid
+
+      {/* <SimpleGrid
         className="project_box"
         p={30}
         borderRadius={6}
@@ -233,7 +333,7 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "121px", sm: "180px", md: "215px", lg: "350px" }}
+        ml={{ base: "121px", sm: "150px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a
@@ -283,7 +383,7 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "50%", md: "15%", lg: "50%" }}
+            w={{ base: "50%", sm: "32%", md: "15%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -322,7 +422,7 @@ export const Work = () => {
             </a>
           </Flex>
         </Box>
-      </SimpleGrid>
+      </SimpleGrid> */}
 
       {/* derm store// */}
       <Box mt={"60px"}></Box>
@@ -336,7 +436,7 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "121px", sm: "180px", md: "215px", lg: "350px" }}
+        ml={{ base: "121px", sm: "150px", md: "215px", lg: "350px" }}
       >
         <Box m={"auto"}>
           <a href="https://fancy-brioche-5d361a.netlify.app/" target={"_blank"}>
@@ -383,7 +483,7 @@ export const Work = () => {
           </Text>
 
           <Flex
-            w={{ base: "50%", md: "18%", lg: "50%" }}
+            w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", md: "20px", lg: "40px" }}
