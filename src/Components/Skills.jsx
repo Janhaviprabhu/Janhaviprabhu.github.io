@@ -6,6 +6,7 @@ export const Skills = () => {
   return (
     <>
       <Box
+      
         className="skillsbox"
         bg={"#f5fcff"}
         ml={{ base: "140px", sm: "90px", md: "35px", lg: "170px" }}

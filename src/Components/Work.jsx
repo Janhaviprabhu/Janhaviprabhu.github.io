@@ -79,10 +79,7 @@ export const Work = () => {
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
           >
-            <a
-              href="https://zippy-frangipane-5fe9c4.netlify.app/mealofday.html"
-              target={"_blank"}
-            >
+            <a href="https://five-metric.netlify.app/" target={"_blank"}>
               <Button
                 mt={3}
                 color={"white"}
@@ -97,7 +94,7 @@ export const Work = () => {
               </Button>
             </a>
             <a
-              href="https://github.com/Janhaviprabhu/Food-app"
+              href="https://github.com/skshm2000/powerful-nut-6425"
               target={"_blank"}
             >
               <Button
