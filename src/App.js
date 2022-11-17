@@ -1,18 +1,17 @@
 import "./App.css";
-
+import { motion } from "framer-motion";
 import { Box, Flex, VStack, Image, Switch, Text } from "@chakra-ui/react";
 import { Profile } from "./Components/profile";
 import { About } from "./Components/About";
 import { Skills } from "./Components/Skills";
 import { Work } from "./Components/Work";
 import { Contact } from "./Components/Contact";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AiFillContacts, AiFillHome } from "react-icons/ai";
 import { SiAboutdotme } from "react-icons/si";
 import { GiSkills } from "react-icons/gi";
 import { RiComputerFill } from "react-icons/ri";
 import { AiFillProfile } from "react-icons/ai";
-
 
 function App() {
   const Profileref = useRef(null);

@@ -12,7 +12,7 @@ export const About = () => {
           textAlign={"center"}
           color={"#00B5D8"}
           ml={{ lg: "-70px" }}
-          mt={10}
+          mt={"120px"}
           fontSize={{ base: "20px", md: "22px", lg: "40px" }}
         >
           About Me

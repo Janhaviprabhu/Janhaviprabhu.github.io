@@ -7,7 +7,7 @@ export const Profile = () => {
     <>
       <Box></Box>
       <Flex
-        bg={"#f5fcff"}
+       bg={"#f5fcff"}
         pr={10}
         gap={10}
         alignItems={{ base: "center", md: "center" }}
