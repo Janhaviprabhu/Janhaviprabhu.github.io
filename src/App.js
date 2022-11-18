@@ -159,7 +159,7 @@ function App() {
           </VStack>
         </Box>
       </Flex>
-      <Box ref={Profileref}>
+      <Box  ref={Profileref}>
         <Profile />
       </Box>
       <Box ref={Aboutref}>

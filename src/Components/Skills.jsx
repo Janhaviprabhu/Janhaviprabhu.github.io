@@ -9,8 +9,8 @@ export const Skills = () => {
       
         className="skillsbox"
         bg={"#f5fcff"}
-        ml={{ base: "140px", sm: "90px", md: "35px", lg: "170px" }}
-        w={{ base: "85%", sm: "63%", md: "90%", lg: "80%" }}
+        ml={{ base: "130px", sm: "90px", md: "35px", lg: "170px" }}
+        w={{ base: "90%", sm: "63%", md: "90%", lg: "80%" }}
         m="auto"
         mt="5%"
       >
