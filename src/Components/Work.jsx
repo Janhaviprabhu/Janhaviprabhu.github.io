@@ -129,7 +129,7 @@ export const Work = () => {
       >
         <Box m={"auto"}>
           <a
-            href="https://cheery-cannoli-6ff64b.netlify.app/"
+            href="https://bright-nasturtium-5fc334.netlify.app/"
             target={"_blank"}
           >
             <Image
@@ -180,7 +180,7 @@ export const Work = () => {
             gap={{ base: "10px", lg: "40px" }}
           >
             <a
-              href="https://cheery-cannoli-6ff64b.netlify.app/"
+              href="https://bright-nasturtium-5fc334.netlify.app/"
               target={"_blank"}
             >
               <Button
