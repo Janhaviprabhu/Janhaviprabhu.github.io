@@ -3,8 +3,20 @@ import { AiFillPhone } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { GrMail, GrLocation } from "react-icons/gr";
 import { BiCopyright } from "react-icons/bi";
+import { useContext } from "react";
+import { AppContex } from "../Context/Authcontext";
 
 export const Contact = () => {
+   const { theme } = useContext(AppContex);
+    const light = {
+      backgroundColor: "#f5fcff",
+      color: "black",
+    };
+
+    const dark = {
+      backgroundColor: "black",
+      color: "#f5fcff",
+    };
   return (
     <>
       <Text

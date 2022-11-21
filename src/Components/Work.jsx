@@ -1,8 +1,20 @@
 import { AspectRatio, Box,Button,Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import "../App.css";
 import {motion} from "framer-motion"
+import { useContext } from "react";
+import { AppContex } from "../Context/Authcontext";
 
 export const Work = () => {
+   const { theme } = useContext(AppContex);
+    const light = {
+      backgroundColor: "#f5fcff",
+      color: "black",
+    };
+
+    const dark = {
+      backgroundColor: "black",
+      color: "#f5fcff",
+    };
   return (
     <>
       <Text

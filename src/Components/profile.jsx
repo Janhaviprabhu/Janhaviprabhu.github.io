@@ -1,13 +1,33 @@
 import { Box, Flex, Text, Image, Button } from "@chakra-ui/react";
 import "../App.css";
 import Typed from "react-typed";
+import { useContext } from "react";
+import { AppContex } from "../Context/Authcontext";
 
 export const Profile = () => {
+  const { theme } = useContext(AppContex);
+  const light = {
+    backgroundColor: "#f5fcff",
+    color: "black",
+  };
+
+  const dark = {
+    backgroundColor: "black",
+    color: "#f5fcff",
+  };
+  const jpdark = {
+    color: "#00B5D6",
+    backgroundColor: "black",
+  };
+  const jplight = {
+    color: "#00B5D6",
+  };
   return (
     <>
       <Box></Box>
       <Flex
-       bg={"#f5fcff"}
+        style={theme === "light" ? light : dark}
+        bg={"#f5fcff"}
         pr={10}
         gap={10}
         alignItems={{ base: "center", md: "center" }}
@@ -16,26 +36,38 @@ export const Profile = () => {
         flexDirection={{ base: "column", lg: "row" }}
       >
         <Box
+          style={theme === "light" ? light : dark}
           textAlign={{ base: "left", lg: "left" }}
           lineHeight={{ base: "35px", md: "50px", lg: "80px" }}
           fontSize={{ base: "28px", md: "40px", lg: "44px" }}
         >
           <Flex
+            style={theme === "light" ? light : dark}
             justifyContent="center"
             gap="7px"
             direction={{ base: "column", lg: "column" }}
           >
-            <Typed
-              strings={[" Hello 👋🏻 , Fellow &lt; Developers /&gt;"]}
-              typeSpeed={30}
-            />
-            <Text textAlign={"center"}>
-              <b>I'm </b>
-              <b style={{ color: "#00B5D8" }}> Janhavi Prabhu</b>
+            <Box style={theme === "light" ? light : dark}>
+              {" "}
+              <Typed
+                // style={theme === "light" ? light : dark}
+
+                strings={[" Hello 👋🏻 , Fellow &lt; Developers /&gt;"]}
+                typeSpeed={30}
+              />
+            </Box>
+            <Text style={theme === "light" ? light : dark} textAlign={"center"}>
+              <b style={theme === "light" ? light : dark}>I'm </b>
+              <b style={theme === "light" ? jplight : jpdark}>
+                {" "}
+                Janhavi Prabhu
+              </b>
             </Text>
           </Flex>
-          <Box textAlign={"center"}>Full Stack Web  Developer</Box>
-          <Box textAlign={"center"}>
+          <Box style={theme === "light" ? light : dark} textAlign={"center"}>
+            Full Stack Web Developer
+          </Box>
+          <Box style={theme === "light" ? light : dark} textAlign={"center"}>
             <a
               href="https://drive.google.com/file/d/1YcBD5g0DmC-tmxuAL7GPBTFdVDal9e7I/view"
               target={"_blank"}
@@ -53,8 +85,9 @@ export const Profile = () => {
             </a>
           </Box>
         </Box>
-        <Box>
+        <Box style={theme === "light" ? light : dark}>
           <Image
+            style={theme === "light" ? light : dark}
             width={{ base: "190px", lg: "350px" }}
             borderRadius={"50%"}
             src="https://avatars.githubusercontent.com/u/97351159?v=4"

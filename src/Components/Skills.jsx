@@ -2,11 +2,23 @@ import { Box, GridItem, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import { GitStats } from "./GitStats";
 import { GitCalender } from "./GitCalender";
 import "../App.css";
+import { useContext } from "react";
+import { AppContex } from "../Context/Authcontext";
 export const Skills = () => {
+   const { theme } = useContext(AppContex);
+    const light = {
+      backgroundColor: "#f5fcff",
+      color: "black",
+    };
+
+    const dark = {
+      backgroundColor: "black",
+      color: "#f5fcff",
+    };
   return (
     <>
       <Box
-      
+        style={theme === "light" ? light : dark}
         className="skillsbox"
         bg={"#f5fcff"}
         ml={{ base: "130px", sm: "90px", md: "35px", lg: "170px" }}
@@ -35,6 +47,7 @@ export const Skills = () => {
           FRONT END{" "}
         </Text>
         <SimpleGrid
+          style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
           ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           columns={[2, 2, 2, 4]}
@@ -43,11 +56,13 @@ export const Skills = () => {
           rowGap={["2px", "5px", "5px", "10px"]}
         >
           <GridItem
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -55,6 +70,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -64,11 +80,13 @@ export const Skills = () => {
           </GridItem>
 
           <Box
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -76,6 +94,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -85,11 +104,13 @@ export const Skills = () => {
           </Box>
 
           <Box
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -97,6 +118,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -105,11 +127,13 @@ export const Skills = () => {
             </Text>
           </Box>
           <GridItem
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -117,6 +141,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -126,11 +151,13 @@ export const Skills = () => {
           </GridItem>
 
           <GridItem
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -138,6 +165,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -147,11 +175,13 @@ export const Skills = () => {
           </GridItem>
 
           <GridItem
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -159,6 +189,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -167,11 +198,13 @@ export const Skills = () => {
             </Text>
           </GridItem>
           <GridItem
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -179,6 +212,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -188,11 +222,13 @@ export const Skills = () => {
           </GridItem>
 
           <GridItem
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -200,6 +236,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -210,6 +247,7 @@ export const Skills = () => {
         </SimpleGrid>
 
         <Text
+          style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
           ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           textAlign="center"
@@ -221,6 +259,7 @@ export const Skills = () => {
           BACK END{" "}
         </Text>
         <SimpleGrid
+          style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
           ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           columns={[2, 2, 2, 4]}
@@ -228,11 +267,13 @@ export const Skills = () => {
           fontWeight="600"
         >
           <Box
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -240,6 +281,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -249,11 +291,13 @@ export const Skills = () => {
           </Box>
 
           <Box
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -261,6 +305,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -270,11 +315,13 @@ export const Skills = () => {
           </Box>
 
           <Box
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -282,6 +329,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -292,6 +340,7 @@ export const Skills = () => {
         </SimpleGrid>
 
         <Text
+          style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
           ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           textAlign="center"
@@ -303,6 +352,7 @@ export const Skills = () => {
           Tools
         </Text>
         <SimpleGrid
+          style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
           ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           columns={[2, 2, 2, 4]}
@@ -310,11 +360,13 @@ export const Skills = () => {
           fontWeight="600"
         >
           <Box
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -322,6 +374,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -331,11 +384,13 @@ export const Skills = () => {
           </Box>
 
           <Box
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -343,6 +398,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -351,11 +407,13 @@ export const Skills = () => {
             </Text>
           </Box>
           <Box
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -363,6 +421,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -371,11 +430,13 @@ export const Skills = () => {
             </Text>
           </Box>
           <Box
+            style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
             m="auto"
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
@@ -383,6 +444,7 @@ export const Skills = () => {
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
+              style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
@@ -392,10 +454,10 @@ export const Skills = () => {
           </Box>
         </SimpleGrid>
       </Box>
-      <Box>
+      <Box style={theme === "light" ? light : dark}>
         <GitCalender />
       </Box>
-      <Box>
+      <Box style={theme === "light" ? light : dark}>
         <GitStats />
       </Box>
     </>
