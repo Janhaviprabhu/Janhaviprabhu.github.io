@@ -209,7 +209,7 @@ export const Skills = () => {
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
-              src="https://archive.org/download/github.com-chakra-ui-chakra-ui_-_2020-02-13_17-20-29/cover.jpg"
+              src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/nextjs-boilerplate-logo.png"
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
@@ -218,10 +218,9 @@ export const Skills = () => {
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
             >
-              Chakra Ui
+              NEXT.JS
             </Text>
           </GridItem>
-
           <GridItem
             style={theme === "light" ? light : dark}
             bg={"#f5fcff"}
@@ -233,7 +232,7 @@ export const Skills = () => {
               bg={"#f5fcff"}
               p={2}
               w={{ base: "45px", md: "80px", lg: "80px" }}
-              src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/npm/npm-original-wordmark.svg"
+              src="https://archive.org/download/github.com-chakra-ui-chakra-ui_-_2020-02-13_17-20-29/cover.jpg"
               _hover={{ transform: "scale(1.2)" }}
             />
             <Text
@@ -242,7 +241,7 @@ export const Skills = () => {
               textAlign="center"
               mt={{ base: "10px", lg: "15px" }}
             >
-              NPM
+              Chakra Ui
             </Text>
           </GridItem>
         </SimpleGrid>

@@ -122,7 +122,7 @@ export const Contact = () => {
       </Box>
       <Text
         style={theme === "light" ? light : dark}
-        mb={10}
+        pb={10}
         display={"flex"}
         gap={1}
         alignContent={"center"}
