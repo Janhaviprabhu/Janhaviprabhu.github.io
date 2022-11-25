@@ -43,6 +43,7 @@ export const Profile = () => {
         >
           <Flex
             style={theme === "light" ? light : dark}
+            col
             justifyContent="center"
             gap="7px"
             direction={{ base: "column", lg: "column" }}
@@ -50,8 +51,7 @@ export const Profile = () => {
             <Box style={theme === "light" ? light : dark}>
               {" "}
               <Typed
-                // style={theme === "light" ? light : dark}
-
+                style={theme === "light" ? light : dark}
                 strings={[" Hello 👋🏻 , Fellow &lt; Developers /&gt;"]}
                 typeSpeed={30}
               />

@@ -20,6 +20,7 @@ export const Contact = () => {
   return (
     <>
       <Text
+        style={theme === "light" ? light : dark}
         bg={"#f5fcff"}
         ml={{ base: "130px", sm: "135px", md: "120px", lg: "370px" }}
         mt={10}
@@ -30,6 +31,7 @@ export const Contact = () => {
         Contact Me
       </Text>
       <Flex
+        style={theme === "light" ? light : dark}
         bg={"#f5fcff"}
         mt={10}
         textAlign={"center"}
@@ -83,26 +85,26 @@ export const Contact = () => {
           </a>
         </Box>
       </Flex>
-      
+
+      <Text
+        ml={{ base: "130px", sm: "160px", md: "175px", lg: "370px" }}
+        mt={10}
+        fontSize={{ base: "13px", md: "13px", lg: "20px" }}
+      >
+        {/* <Flex alignContent={"center"}> */}
         <Text
-          ml={{ base: "130px", sm: "160px", md: "175px", lg: "370px" }}
-          mt={10}
-          fontSize={{ base: "13px", md: "13px", lg: "20px" }}
+          fontSize={{ base: "22px", md: "26px", lg: "36px" }}
+          ml={{ base: "110px", sm: "157px", md: "340px", lg: "558px" }}
         >
-          {/* <Flex alignContent={"center"}> */}
-          <Text
-            fontSize={{ base: "22px", md: "26px", lg: "36px" }}
-            ml={{ base: "110px", sm: "157px", md: "340px", lg: "558px" }}
-          >
-            <GrLocation />
-          </Text>
-          <Text ml={{ base: "70px", sm: "110px", md: "300px", lg: "485px" }}>
-            {" "}
-            Mumbai, Maharashtra
-          </Text>
-          {/* </Flex> */}
+          <GrLocation />
         </Text>
-        {/* <Box
+        <Text ml={{ base: "70px", sm: "110px", md: "300px", lg: "485px" }}>
+          {" "}
+          Mumbai, Maharashtra
+        </Text>
+        {/* </Flex> */}
+      </Text>
+      {/* <Box
         mt={10}
         ml={{ base: "100px", sm: "160px", md: "335px", lg: "770px" }}
       >
@@ -115,24 +117,19 @@ export const Contact = () => {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </Box> */}
-        <Box ml={{ base: "140px", sm: "220px", md: "430px", lg: "836px" }}>
-          Made with ❤️ by Janhavi Prabhu
-        </Box>
-        <Text
-          mb={10}
-          display={"flex"}
-          gap={1}
-          alignContent={"center"}
-          ml={{ base: "180px", sm: "250px", md: "465px", lg: "875px" }}
-        >
-          Copyrights{" "}
-          <Text fontSize={18}>
-            {/* <BiCopyright /> */}
-            ©
-          </Text>{" "}
-          2022
-        </Text>
-      
+      <Box ml={{ base: "140px", sm: "220px", md: "430px", lg: "836px" }}>
+        Made with ❤️ by Janhavi Prabhu
+      </Box>
+      <Text
+        style={theme === "light" ? light : dark}
+        mb={10}
+        display={"flex"}
+        gap={1}
+        alignContent={"center"}
+        ml={{ base: "180px", sm: "250px", md: "465px", lg: "875px" }}
+      >
+        Copyrights <Text fontSize={18}>{/* <BiCopyright /> */}©</Text> 2022
+      </Text>
     </>
   );
 };

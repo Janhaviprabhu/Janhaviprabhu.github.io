@@ -1,9 +1,22 @@
 
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { useContext } from "react";
+import { AppContex } from "../Context/Authcontext";
 export const GitStats=()=>{
+      const { theme } = useContext(AppContex);
+      const light = {
+        backgroundColor: "#f5fcff",
+        color: "black",
+      };
+
+      const dark = {
+        backgroundColor: "black",
+        color: "#f5fcff",
+      };
     return (
       <>
         <Text
+          style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
           ml={{ base: "120px", sm: "140px", md: "172px", lg: "350px" }}
           textAlign="center"
@@ -15,6 +28,7 @@ export const GitStats=()=>{
           GITHUB STATS
         </Text>
         <Flex
+          style={theme === "light" ? light : dark}
           width={{ base: "70%", md: "80%", lg: "60%" }}
           ml={{ base: "110px", sm: "150px", md: "155px", lg: "490px" }}
           direction={{ base: "column-reverse", md: "row" }}
@@ -23,7 +37,7 @@ export const GitStats=()=>{
           mt={{ base: "10px", sm: "30px", md: "30px", lg: "50px" }}
           gap={{ base: "15px", md: "35px", lg: "70px" }}
         >
-          <Box>
+          <Box style={theme === "light" ? light : dark}>
             <a href="https://github.com/Janhaviprabhu">
               <Image
                 width={{ base: "250px", md: "480px", lg: "500px" }}
@@ -32,7 +46,7 @@ export const GitStats=()=>{
             </a>
           </Box>
 
-          <Box>
+          <Box style={theme === "light" ? light : dark}>
             <a href="https://github.com/Janhaviprabhu">
               <Image
                 width={{ base: "250px", md: "480px", lg: "500px" }}
@@ -43,6 +57,7 @@ export const GitStats=()=>{
         </Flex>
 
         <Flex
+          style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
           ml={{ base: "110px", sm: "150px", md: "155px", lg: "478px" }}
           width={{ base: "70%", md: "80%", lg: "60%" }}
@@ -50,7 +65,7 @@ export const GitStats=()=>{
           justifyContent="center"
           alignItems="center"
         >
-          <Box>
+          <Box style={theme === "light" ? light : dark}>
             <a href="https://github.com/Janhaviprabhu">
               <Image
                 width={{ base: "250px", md: "260px", lg: "350px" }}

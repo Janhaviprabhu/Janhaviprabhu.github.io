@@ -36,6 +36,7 @@ export const Skills = () => {
         </Text>
 
         <Text
+          style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
           ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           textAlign="center"
