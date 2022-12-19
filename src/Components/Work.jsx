@@ -27,7 +27,8 @@ export const Work = () => {
         color={"#00B5D8"}
         fontSize={{ base: "23px", md: "25px", lg: "40px" }}
       >
-        Projects
+        {" "}
+        Proj{" "}
       </Text>
       <Box mt={"60px"}></Box>
       <SimpleGrid
@@ -37,8 +38,7 @@ export const Work = () => {
         gap={10}
         boxShadow="rgba(10, 104, 204, 0.6) 0px 0px 0px 2px"
         m={"auto"}
-        width={{ base: "65%", md: "67%", lg: "75%" }}
-        alignContent={"center"}
+        width={{ base: "95%", md: "85%", lg: "90%" }}
         columns={[1, 1, 1, 2]}
       >
         <Box m={"auto"}>
@@ -176,7 +176,7 @@ export const Work = () => {
         gap={10}
         boxShadow="rgba(10, 104, 204, 0.6) 0px 0px 0px 2px"
         m={"auto"}
-        width={{ base: "65%", sm: "65%", md: "67%", lg: "75%" }}
+        width={{ base: "95%", md: "85%", lg: "90%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
       >
@@ -324,7 +324,7 @@ export const Work = () => {
         boxShadow="rgba(10, 104, 204, 0.6) 0px 0px 0px 2px"
         target={"_blank"}
         m={"auto"}
-        width={{ base: "65%", md: "67%", lg: "75%" }}
+        width={{ base: "95%", md: "85%", lg: "90%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
       >
@@ -571,7 +571,7 @@ export const Work = () => {
         gap={10}
         boxShadow="rgba(10, 104, 204, 0.6) 0px 0px 0px 2px"
         m={"auto"}
-        width={{ base: "65%", md: "67%", lg: "75%" }}
+        width={{ base: "95%", md: "85%", lg: "90%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
       >

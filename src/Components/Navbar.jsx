@@ -66,6 +66,7 @@ export default function Simple({ Profile, About, Skills, Projects, Contact }) {
         w="100%"
         position={"fixed"}
         p={2}
+        zIndex={99}
       >
         <Flex
           pl={{ base: "5px", lg: "30px" }}

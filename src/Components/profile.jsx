@@ -25,16 +25,16 @@ export const Profile = () => {
   return (
     <>
       <Box></Box>
-      <Flex
+      <Flex border='1px solid black'
         style={theme === "light" ? light : dark}
       
       textAlign={'center'}
         gap={10}
         alignItems={{ base: "center", md: "center" }}
-       w="55%"
+       w={{base : '90%', md: '85%', lg :'90%'}}
        margin={'auto'}
         mt={20}
-        flexDirection={{ base: "column", lg: "row" }}
+        flexDirection={{ base: "column-reverse", lg: "row" }}
       >
         <Box
           style={theme === "light" ? light : dark}
