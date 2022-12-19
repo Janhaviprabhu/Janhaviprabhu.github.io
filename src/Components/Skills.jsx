@@ -30,7 +30,7 @@ export const Skills = () => {
         fontWeight={600}
           textAlign="center"
           color={"#00B5D8"}
-          fontSize={{ base: "20px", md: "22px", lg: "43px" }}
+          fontSize={{ base: "23px", md: "25px", lg: "43px" }}
         >
           Skills
         </Text>
@@ -306,7 +306,7 @@ export const Skills = () => {
               style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={4}
-              w={{ base: "45px", md: "80px", lg: "80px" }}
+              w={{ base: "55px", md: "80px", lg: "80px" }}
               src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original.svg"
               _hover={{ transform: "scale(1.2)" }}
             />

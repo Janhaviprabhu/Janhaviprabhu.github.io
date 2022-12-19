@@ -68,7 +68,7 @@ export default function Simple({ Profile, About, Skills, Projects, Contact }) {
         p={2}
       >
         <Flex
-            pl={{ base: "5px", lg: "30px" }}
+          pl={{ base: "5px", lg: "30px" }}
           h={16}
           alignItems={"center"}
           justifyContent={"space-between"}
@@ -148,18 +148,16 @@ export default function Simple({ Profile, About, Skills, Projects, Contact }) {
               </Box>
             </HStack>
           </HStack>
-          <Flex
-               pr={{ base: "5px", lg: "30px" }}
-            gap={10}
-            alignItems={"center"}
-          >
+          <Flex pr={{ base: "5px", lg: "30px" }} gap={10} alignItems={"center"}>
             <Button
               boxShadow=" rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px"
               color={"white"}
               fontSize={"19px"}
               letterSpacing={1}
               fontWeight={400}
-              _hover={{ backgroundColor: "#00B5D6" }}
+              as={Link}
+              download={true}
+              _hover={{ backgroundColor: "#00B5D6", textDecoration: "none" }}
               background={"#088aa8"}
               rightIcon={<HiDocumentDownload />}
               href="/Janhavi_Prabhu_Resume.pdf"

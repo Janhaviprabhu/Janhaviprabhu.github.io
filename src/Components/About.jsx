@@ -30,7 +30,7 @@ export const About = () => {
           textAlign={"center"}
           color={"#00B5D8"}
           mt={"110px"}
-          fontSize={{ base: "20px", md: "22px", lg: "40px" }}
+          fontSize={{ base: "23px", md: "25px", lg: "40px" }}
         >
           About Me
         </Text>

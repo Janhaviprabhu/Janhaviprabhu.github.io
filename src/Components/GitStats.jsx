@@ -40,7 +40,7 @@ export const GitStats=()=>{
           <Box style={theme === "light" ? light : dark}>
             <a href="https://github.com/Janhaviprabhu">
               <Image
-                width={{ base: "250px", md: "480px", lg: "500px" }}
+                width={{ base: "270px", md: "480px", lg: "500px" }}
                 src="https://github-readme-streak-stats.herokuapp.com/?user=Janhaviprabhu"
               />
             </a>
@@ -49,7 +49,7 @@ export const GitStats=()=>{
           <Box style={theme === "light" ? light : dark}>
             <a href="https://github.com/Janhaviprabhu">
               <Image
-                width={{ base: "250px", md: "480px", lg: "500px" }}
+                width={{ base: "270px", md: "480px", lg: "500px" }}
                 src="https://github-readme-stats.vercel.app/api?username=Janhaviprabhu&count_private=true&show_icons=true"
               />
             </a>

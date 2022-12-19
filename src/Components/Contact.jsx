@@ -20,13 +20,13 @@ export const Contact = () => {
   return (
     <>
       <Text
-        style={theme === "light" ? light : dark}
-        bg={"#f5fcff"}
+        
+        color={"#088aa8"}
         mt={10}
         textAlign="center"
-        color="#00B5D8"
+     
         fontWeight={600}
-        fontSize={{ base: "20px", md: "23px", lg: "40px" }}
+        fontSize={{ base: "22px", md: "25px", lg: "40px" }}
       >
         Contact Me
       </Text>
@@ -36,8 +36,8 @@ export const Contact = () => {
         mt={10}
         textAlign={"center"}
         alignContent="center"
-        w={{ base: "10%", sm: "70%", md: "60%", lg: "90%" }}
-        justifyContent="space-around"
+        w={{ base: "75%", sm: "50%", md: "35%", lg: "21%" }}
+        
         margin={"auto"}
       >
         <Box mt={5}>

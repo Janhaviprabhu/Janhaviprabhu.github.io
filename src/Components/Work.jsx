@@ -3,6 +3,8 @@ import "../App.css";
 import {motion} from "framer-motion"
 import { useContext } from "react";
 import { AppContex } from "../Context/Authcontext";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import {AiFillGithub} from "react-icons/ai"
 
 export const Work = () => {
    const { theme } = useContext(AppContex);
@@ -20,10 +22,10 @@ export const Work = () => {
       <Text
         mt={10}
         mb={10}
-       fontWeight={600}
+        fontWeight={600}
         textAlign="center"
         color={"#00B5D8"}
-        fontSize={{ base: "20px", md: "22px", lg: "40px" }}
+        fontSize={{ base: "23px", md: "25px", lg: "40px" }}
       >
         Projects
       </Text>
@@ -38,7 +40,6 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-       
       >
         <Box m={"auto"}>
           <a href="https://five-metric.netlify.app/" target={"_blank"}>
@@ -86,6 +87,7 @@ export const Work = () => {
           </Text>
 
           <Flex
+            display={{ base: "none", md: "flex" }}
             w={{ base: "50%", sm: "32%", md: "15%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
@@ -121,6 +123,46 @@ export const Work = () => {
               </Button>
             </a>
           </Flex>
+          <Flex
+            display={{ base: "flex", md: "none" }}
+            w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
+            alignContent={"center"}
+            margin={"auto"}
+            gap={{ base: "10px", lg: "40px" }}
+          >
+            <a href="https://five-metric.netlify.app/" target={"_blank"}>
+              <Button
+                mt={3}
+                color={"white"}
+                _hover={{ background: "#0ab2d9" }}
+                background={"#088aa8"}
+                width={{ base: "20px", md: "30px", lg: "100px" }}
+                fontSize={{ base: "13px", lg: "14px" }}
+                textAlign={"center"}
+              >
+                <Text>
+                  <FaExternalLinkAlt color="white" />
+                </Text>
+              </Button>
+            </a>
+            <a
+              href="https://github.com/skshm2000/powerful-nut-6425"
+              target={"_blank"}
+            >
+              <Button
+                mt={3}
+                color="white"
+                _hover={{ background: "#0ab2d9" }}
+                background={"#088aa8"}
+                width={{ base: "20px", lg: "100px" }}
+                fontSize={{ base: "17px", lg: "14px" }}
+              >
+                <Text>
+                  <AiFillGithub />
+                </Text>
+              </Button>
+            </a>
+          </Flex>
         </Box>
       </SimpleGrid>
 
@@ -137,7 +179,6 @@ export const Work = () => {
         width={{ base: "65%", sm: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-       
       >
         <Box m={"auto"}>
           <a
@@ -186,6 +227,7 @@ export const Work = () => {
           </Text>
 
           <Flex
+            display={{ base: "none", md: "flex" }}
             w={{ base: "50%", sm: "32%", md: "15%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
@@ -224,6 +266,50 @@ export const Work = () => {
               </Button>
             </a>
           </Flex>
+          <Flex
+            display={{ base: "flex", md: "none" }}
+            w={{ base: "50%", sm: "22%", md: "15%", lg: "50%" }}
+            alignContent={"center"}
+            margin={"auto"}
+            gap={{ base: "10px", lg: "40px" }}
+          >
+            <a
+              href="https://bright-nasturtium-5fc334.netlify.app/"
+              target={"_blank"}
+            >
+              <Button
+                mt={3}
+                color={"white"}
+                _hover={{ background: "#0ab2d9" }}
+                background={"#088aa8"}
+                width={{ base: "20px", lg: "100px" }}
+                fontSize={{ base: "13px", lg: "14px" }}
+                textAlign={"center"}
+              >
+                {" "}
+                <Text>
+                  <FaExternalLinkAlt color="white" />
+                </Text>
+              </Button>
+            </a>
+            <a
+              href="https://github.com/Janhaviprabhu/shrill-point-7214"
+              target={"_blank"}
+            >
+              <Button
+                mt={3}
+                color="white"
+                _hover={{ background: "#0ab2d9" }}
+                background={"#088aa8"}
+                width={{ base: "20px", lg: "100px" }}
+                fontSize={{ base: "17px", lg: "14px" }}
+              >
+                <Text>
+                  <AiFillGithub />
+                </Text>
+              </Button>
+            </a>
+          </Flex>
         </Box>
       </SimpleGrid>
 
@@ -241,7 +327,6 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-       
       >
         <Box m={"auto"}>
           <a href="https://boat-lifestyle-clone-7.netlify.app/index.html">
@@ -289,6 +374,7 @@ export const Work = () => {
           </Text>
 
           <Flex
+            display={{ base: "none", md: "flex" }}
             w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
@@ -324,6 +410,49 @@ export const Work = () => {
                 fontSize={{ base: "7px", lg: "14px" }}
               >
                 View Code
+              </Button>
+            </a>
+          </Flex>
+          <Flex
+            display={{ base: "flex", md: "none" }}
+            w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
+            alignContent={"center"}
+            margin={"auto"}
+            gap={{ base: "10px", lg: "40px" }}
+          >
+            <a
+              href="https://boat-lifestyle-clone-7.netlify.app/index.html"
+              target={"_blank"}
+            >
+              <Button
+                mt={3}
+                color={"white"}
+                _hover={{ background: "#0ab2d9" }}
+                background={"#088aa8"}
+                width={{ base: "20px", md: "30px", lg: "100px" }}
+                fontSize={{ base: "13px", lg: "14px" }}
+                textAlign={"center"}
+              >
+                <Text>
+                  <FaExternalLinkAlt color="white" />
+                </Text>
+              </Button>
+            </a>
+            <a
+              href="https://github.com/Anantk05/boat-lifestyle.com-Clone"
+              target={"_blank"}
+            >
+              <Button
+                mt={3}
+                color="white"
+                _hover={{ background: "#0ab2d9" }}
+                background={"#088aa8"}
+                width={{ base: "20px", lg: "100px" }}
+                fontSize={{ base: "17px", lg: "14px" }}
+              >
+                <Text>
+                  <AiFillGithub />
+                </Text>
               </Button>
             </a>
           </Flex>
@@ -445,7 +574,6 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-       
       >
         <Box m={"auto"}>
           <a href="https://fancy-brioche-5d361a.netlify.app/" target={"_blank"}>
@@ -492,6 +620,7 @@ export const Work = () => {
           </Text>
 
           <Flex
+            display={{ base: "none", md: "flex" }}
             w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
@@ -515,7 +644,7 @@ export const Work = () => {
               </Button>
             </a>
             <a
-              href="https://github.com/Janhaviprabhu/Food-app"
+              href="https://fancy-brioche-5d361a.netlify.app/"
               target={"_blank"}
             >
               <Button
@@ -527,6 +656,49 @@ export const Work = () => {
                 fontSize={{ base: "7px", lg: "14px" }}
               >
                 View Code
+              </Button>
+            </a>
+          </Flex>
+          <Flex
+            display={{ base: "flex", md: "none" }}
+            w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
+            alignContent={"center"}
+            margin={"auto"}
+            gap={{ base: "10px", lg: "40px" }}
+          >
+            <a
+              href="https://github.com/Janhaviprabhu/Food-app"
+              target={"_blank"}
+            >
+              <Button
+                mt={3}
+                color={"white"}
+                _hover={{ background: "#0ab2d9" }}
+                background={"#088aa8"}
+                width={{ base: "20px", md: "30px", lg: "100px" }}
+                fontSize={{ base: "13px", lg: "14px" }}
+                textAlign={"center"}
+              >
+                <Text>
+                  <FaExternalLinkAlt color="white" />
+                </Text>
+              </Button>
+            </a>
+            <a
+              href="https://github.com/Janhaviprabhu/Food-app"
+              target={"_blank"}
+            >
+              <Button
+                mt={3}
+                color="white"
+                _hover={{ background: "#0ab2d9" }}
+                background={"#088aa8"}
+                width={{ base: "20px", lg: "100px" }}
+                fontSize={{ base: "17px", lg: "14px" }}
+              >
+                <Text>
+                  <AiFillGithub />
+                </Text>
               </Button>
             </a>
           </Flex>
