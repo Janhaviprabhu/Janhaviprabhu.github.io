@@ -27,23 +27,23 @@ export const Profile = () => {
       <Box></Box>
       <Flex
         style={theme === "light" ? light : dark}
-        bg={"#f5fcff"}
-        pr={10}
+      
+      textAlign={'center'}
         gap={10}
         alignItems={{ base: "center", md: "center" }}
-        ml={{ base: "160px", sm: "200px", md: "200px", lg: "400px" }}
+       w="55%"
+       margin={'auto'}
         mt={20}
         flexDirection={{ base: "column", lg: "row" }}
       >
         <Box
           style={theme === "light" ? light : dark}
-          textAlign={{ base: "left", lg: "left" }}
+          textAlign={{ base: "center", lg: "center" }}
           lineHeight={{ base: "35px", md: "50px", lg: "80px" }}
-          fontSize={{ base: "28px", md: "40px", lg: "44px" }}
+          fontSize={{ base: "24px", md: "40px", lg: "44px" }}
         >
           <Flex
             style={theme === "light" ? light : dark}
-            col
             justifyContent="center"
             gap="7px"
             direction={{ base: "column", lg: "column" }}
@@ -52,6 +52,7 @@ export const Profile = () => {
               {" "}
               <Typed
                 style={theme === "light" ? light : dark}
+                
                 strings={[" Hello 👋🏻 , Fellow &lt; Developers /&gt;"]}
                 typeSpeed={30}
               />
@@ -87,6 +88,7 @@ export const Profile = () => {
         </Box>
         <Box style={theme === "light" ? light : dark}>
           <Image
+          ml={5}
             style={theme === "light" ? light : dark}
             width={{ base: "190px", lg: "350px" }}
             borderRadius={"50%"}

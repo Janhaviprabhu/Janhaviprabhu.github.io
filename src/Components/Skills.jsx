@@ -20,14 +20,15 @@ export const Skills = () => {
       <Box
         style={theme === "light" ? light : dark}
         className="skillsbox"
+        border={"1px solid black"}
         bg={"#f5fcff"}
-        ml={{ base: "130px", sm: "90px", md: "35px", lg: "170px" }}
-        w={{ base: "90%", sm: "63%", md: "90%", lg: "80%" }}
+        w="65%"
+        margin={"auto"}
         m="auto"
         mt="5%"
       >
         <Text
-          ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
+       
           textAlign="center"
           color={"#00B5D8"}
           fontSize={{ base: "20px", md: "22px", lg: "43px" }}
@@ -38,7 +39,6 @@ export const Skills = () => {
         <Text
           style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
-          ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           textAlign="center"
           fontSize={{ base: "12px", md: "18px", lg: "20px" }}
           fontWeight={{ base: "600", md: "600" }}
@@ -50,7 +50,7 @@ export const Skills = () => {
         <SimpleGrid
           style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
-          ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
+          border={"1px solid black"}
           columns={[2, 2, 2, 4]}
           fontSize={{ base: "12px", md: "14px" }}
           fontWeight="600"
