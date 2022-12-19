@@ -20,7 +20,6 @@ export const Skills = () => {
       <Box
         style={theme === "light" ? light : dark}
         className="skillsbox"
-        border={"1px solid black"}
         bg={"#f5fcff"}
         w="65%"
         margin={"auto"}
@@ -28,7 +27,6 @@ export const Skills = () => {
         mt="5%"
       >
         <Text
-       
           textAlign="center"
           color={"#00B5D8"}
           fontSize={{ base: "20px", md: "22px", lg: "43px" }}
@@ -50,7 +48,6 @@ export const Skills = () => {
         <SimpleGrid
           style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
-          border={"1px solid black"}
           columns={[2, 2, 2, 4]}
           fontSize={{ base: "12px", md: "14px" }}
           fontWeight="600"
@@ -64,9 +61,10 @@ export const Skills = () => {
           >
             <Image
               style={theme === "light" ? light : dark}
+              boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px"
               bg={"#f5fcff"}
-              p={2}
-              w={{ base: "45px", md: "80px", lg: "80px" }}
+              p={4}
+              w={{ base: "55px", md: "85px", lg: "85px" }}
               src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
               _hover={{ transform: "scale(1.2)" }}
             />
@@ -87,10 +85,11 @@ export const Skills = () => {
             mt={{ base: "20px", md: "30px", lg: "6" }}
           >
             <Image
+              boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px"
               style={theme === "light" ? light : dark}
               bg={"#f5fcff"}
               p={2}
-              w={{ base: "45px", md: "80px", lg: "80px" }}
+              w={{ base: "55px", md: "85px", lg: "85px" }}
               src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg"
               _hover={{ transform: "scale(1.2)" }}
             />
@@ -249,7 +248,6 @@ export const Skills = () => {
         <Text
           style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
-          ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           textAlign="center"
           fontSize={{ base: "12px", md: "18px", lg: "20px" }}
           fontWeight={{ base: "600", md: "600" }}
@@ -261,7 +259,6 @@ export const Skills = () => {
         <SimpleGrid
           style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
-          ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           columns={[2, 2, 2, 4]}
           fontSize={{ base: "12px", md: "14px" }}
           fontWeight="600"
@@ -342,7 +339,6 @@ export const Skills = () => {
         <Text
           style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
-          ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           textAlign="center"
           fontSize={{ base: "12px", md: "18px", lg: "20px" }}
           fontWeight={{ base: "600", md: "600" }}
@@ -354,7 +350,6 @@ export const Skills = () => {
         <SimpleGrid
           style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
-          ml={{ base: "120px", sm: "210px", md: "165px", lg: "300px" }}
           columns={[2, 2, 2, 4]}
           fontSize={{ base: "12px", md: "14px" }}
           fontWeight="600"

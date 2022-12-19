@@ -20,7 +20,7 @@ export const Work = () => {
       <Text
         mt={10}
         mb={10}
-        ml={{ base: "120px", sm: "140px", md: "172px", lg: "350px" }}
+       
         textAlign="center"
         color={"#00B5D8"}
         fontSize={{ base: "20px", md: "22px", lg: "40px" }}
@@ -38,7 +38,7 @@ export const Work = () => {
         width={{ base: "65%", md: "67%", lg: "75%" }}
         alignContent={"center"}
         columns={[1, 1, 1, 2]}
-        ml={{ base: "121px", sm: "150px", md: "215px", lg: "350px" }}
+       
       >
         <Box m={"auto"}>
           <a href="https://five-metric.netlify.app/" target={"_blank"}>
