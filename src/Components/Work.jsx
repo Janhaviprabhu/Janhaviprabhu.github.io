@@ -28,7 +28,7 @@ export const Work = () => {
         fontSize={{ base: "23px", md: "25px", lg: "40px" }}
       >
         {" "}
-        Proj{" "}
+        Projects{" "}
       </Text>
       <Box mt={"60px"}></Box>
       <SimpleGrid
