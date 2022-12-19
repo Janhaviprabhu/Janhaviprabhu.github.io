@@ -25,7 +25,7 @@ export const Profile = () => {
   return (
     <>
       <Box></Box>
-      <Flex border='1px solid black'
+      <Flex 
         style={theme === "light" ? light : dark}
       
       textAlign={'center'}
