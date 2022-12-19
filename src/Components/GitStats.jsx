@@ -18,7 +18,7 @@ export const GitStats=()=>{
         <Text
           style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
-          ml={{ base: "120px", sm: "140px", md: "172px", lg: "350px" }}
+         
           textAlign="center"
           fontSize={{ base: "12px", md: "18px", lg: "20px" }}
           fontWeight={{ base: "600", md: "600" }}
@@ -29,8 +29,8 @@ export const GitStats=()=>{
         </Text>
         <Flex
           style={theme === "light" ? light : dark}
-          width={{ base: "70%", md: "80%", lg: "60%" }}
-          ml={{ base: "110px", sm: "150px", md: "155px", lg: "490px" }}
+          width={{ base: "70%", md: "80%", lg: "70%" }}
+         margin='auto'
           direction={{ base: "column-reverse", md: "row" }}
           justifyContent="center"
           alignItems="center"
@@ -59,8 +59,9 @@ export const GitStats=()=>{
         <Flex
           style={theme === "light" ? light : dark}
           bg={"#f5fcff"}
-          ml={{ base: "110px", sm: "150px", md: "155px", lg: "478px" }}
+          
           width={{ base: "70%", md: "80%", lg: "60%" }}
+          margin='auto'
           mt={{ base: "15px", md: "25px" }}
           justifyContent="center"
           alignItems="center"
@@ -68,7 +69,7 @@ export const GitStats=()=>{
           <Box style={theme === "light" ? light : dark}>
             <a href="https://github.com/Janhaviprabhu">
               <Image
-                width={{ base: "250px", md: "260px", lg: "350px" }}
+                width={{ base: "250px", md: "260px", lg: "330px" }}
                 src="https://github-readme-stats.vercel.app/api/top-langs/?username=Janhaviprabhu"
               />
             </a>

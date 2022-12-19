@@ -66,10 +66,10 @@ function App() {
         <Skills />
       </Box>
       <Box style={theme === "light" ? light : dark} ref={Projectref}>
-        {/* <Work /> */}
+        <Work />
       </Box>
       <Box style={theme === "light" ? light : dark} ref={Contactref}>
-        {/* <Contact /> */}
+        <Contact />
       </Box>
     </div>
   );

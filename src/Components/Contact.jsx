@@ -22,10 +22,10 @@ export const Contact = () => {
       <Text
         style={theme === "light" ? light : dark}
         bg={"#f5fcff"}
-        ml={{ base: "130px", sm: "135px", md: "120px", lg: "370px" }}
         mt={10}
         textAlign="center"
         color="#00B5D8"
+        fontWeight={600}
         fontSize={{ base: "20px", md: "23px", lg: "40px" }}
       >
         Contact Me
@@ -36,11 +36,11 @@ export const Contact = () => {
         mt={10}
         textAlign={"center"}
         alignContent="center"
-        w={{ base: "10%", sm: "70%", md: "60%", lg: "80%" }}
+        w={{ base: "10%", sm: "70%", md: "60%", lg: "90%" }}
         justifyContent="space-around"
-        ml={{ base: "190px", sm: "70px", md: "195px", lg: "220px" }}
+        margin={"auto"}
       >
-        <Box ml={{ base: "20px", sm: "90px", md: "35px", lg: "170px" }}>
+        <Box mt={5}>
           <a target={"_blank"} href="tel:+917738112993">
             {" "}
             <Text
@@ -60,6 +60,7 @@ export const Contact = () => {
             href="mailto:januprabhu26@email.com"
           >
             <Text
+              mt={5}
               fontSize={{ base: "22px", md: "26px", lg: "36px" }}
               textAlign={"center"}
               ml="60px"
@@ -75,6 +76,7 @@ export const Contact = () => {
             href="https://www.linkedin.com/in/janhaviprabhu2604/"
           >
             <Text
+              mt={5}
               fontSize={{ base: "22px", md: "26px", lg: "36px" }}
               textAlign={"center"}
               ml="50px"
@@ -86,19 +88,16 @@ export const Contact = () => {
         </Box>
       </Flex>
 
-      <Text
-        ml={{ base: "130px", sm: "160px", md: "175px", lg: "370px" }}
-        mt={10}
-        fontSize={{ base: "13px", md: "13px", lg: "20px" }}
-      >
+      <Text mt={10} fontSize={{ base: "13px", md: "13px", lg: "20px" }}>
         {/* <Flex alignContent={"center"}> */}
         <Text
           fontSize={{ base: "22px", md: "26px", lg: "36px" }}
-          ml={{ base: "110px", sm: "157px", md: "340px", lg: "558px" }}
+          
+          textAlign='center'
         >
-          <GrLocation />
+          
         </Text>
-        <Text ml={{ base: "70px", sm: "110px", md: "300px", lg: "485px" }}>
+        <Text textAlign={'center'} >
           {" "}
           Mumbai, Maharashtra
         </Text>
@@ -117,18 +116,19 @@ export const Contact = () => {
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </Box> */}
-      <Box ml={{ base: "140px", sm: "220px", md: "430px", lg: "836px" }}>
-        Made with ❤️ by Janhavi Prabhu
+      <Box textAlign={'center'} >
+        Designed by Janhavi Prabhu
       </Box>
       <Text
+      textAlign={'center'}
         style={theme === "light" ? light : dark}
         pb={10}
-        display={"flex"}
+     
         gap={1}
-        alignContent={"center"}
-        ml={{ base: "180px", sm: "250px", md: "465px", lg: "875px" }}
+        
+        
       >
-        Copyrights <Text fontSize={18}>{/* <BiCopyright /> */}©</Text> 2022
+        Copyrights © 2022
       </Text>
     </>
   );

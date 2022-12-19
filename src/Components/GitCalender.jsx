@@ -35,7 +35,7 @@ export const GitCalender = () => {
     <>
       <Text
         style={theme === "light" ? light : dark}
-        ml={{ base: "120px", sm: "140px", md: "172px", lg: "350px" }}
+      
         fontWeight={600}
         textAlign="center"
         fontSize={{ base: "12px", md: "18px", lg: "20px" }}
@@ -46,8 +46,9 @@ export const GitCalender = () => {
       </Text>
       <Flex
         style={theme === "light" ? light : dark}
-        ml={{ base: "112px", sm: "140px", md: "152px", lg: "400px" }}
+        
         width={{ base: "69%", md: "80%", lg: "70%" }}
+        m='auto'
         justifyContent="center"
         alignItems="center"
         mt={{ base: "10px", md: "20px" }}
