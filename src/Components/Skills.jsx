@@ -57,7 +57,7 @@ export const Skills = () => {
         </GridItem>
 
         <GridItem style={theme === "light" ? light : dark} bg={"#f5fcff"} m="auto" mt={{ base: "20px", md: "30px", lg: "6" }} >
-            <Image style={theme === "light" ? light : dark} boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px" bg={"#f5fcff"} p={4} w={{ base: "65px", md: "85px", lg: "90px" }}  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nextjs/nextjs-original-wordmark.svg"  _hover={{ transform: "scale(1.2)" }}/>
+            <Image style={theme === "light" ? light : dark} boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px" bg={"#f5fcff"} p={4} w={{ base: "65px", md: "85px", lg: "90px" }}  src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/nextjs-boilerplate-logo.png"  _hover={{ transform: "scale(1.2)" }}/>
             <Text style={theme === "light" ? light : dark} bg={"#f5fcff"} textAlign="center" mt={{ base: "12px", lg: "16px" }} > NextJs</Text>
         </GridItem>
 
@@ -78,7 +78,7 @@ export const Skills = () => {
           </GridItem>
 
          <GridItem style={theme === "light" ? light : dark} bg={"#f5fcff"} m="auto" mt={{ base: "20px", md: "30px", lg: "6" }} >
-            <Image style={theme === "light" ? light : dark} boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px" bg={"#f5fcff"} p={4} w={{ base: "65px", md: "85px", lg: "90px" }}  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/express/express-original.svg"  _hover={{ transform: "scale(1.2)" }}/>
+            <Image style={theme === "light" ? light : dark} boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px" bg={"#f5fcff"} p={4} w={{ base: "65px", md: "85px", lg: "90px" }}  src="https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png"  _hover={{ transform: "scale(1.2)" }}/>
             <Text style={theme === "light" ? light : dark} bg={"#f5fcff"} textAlign="center" mt={{ base: "12px", lg: "16px" }} > Express</Text>
           </GridItem>
 
@@ -104,12 +104,12 @@ export const Skills = () => {
           </GridItem>
 
          <GridItem style={theme === "light" ? light : dark} bg={"#f5fcff"} m="auto" mt={{ base: "20px", md: "30px", lg: "6" }} >
-            <Image style={theme === "light" ? light : dark} boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px" bg={"#f5fcff"} p={4} w={{ base: "65px", md: "85px", lg: "90px" }}  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg"  _hover={{ transform: "scale(1.2)" }}/>
+            <Image style={theme === "light" ? light : dark} boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px" bg={"#f5fcff"} p={4} w={{ base: "65px", md: "85px", lg: "90px" }}  src="https://i.pinimg.com/736x/b1/5e/ed/b15eedbdafbbdbca3249e3942f4faf3b.jpg"  _hover={{ transform: "scale(1.2)" }}/>
             <Text style={theme === "light" ? light : dark} bg={"#f5fcff"} textAlign="center" mt={{ base: "12px", lg: "16px" }} > Git Hub</Text>
           </GridItem>
 
           <GridItem style={theme === "light" ? light : dark} bg={"#f5fcff"} m="auto" mt={{ base: "20px", md: "30px", lg: "6" }} >
-            <Image style={theme === "light" ? light : dark} boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px" bg={"#f5fcff"} p={4} w={{ base: "65px", md: "85px", lg: "90px" }}  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"  _hover={{ transform: "scale(1.2)" }}/>
+            <Image style={theme === "light" ? light : dark} boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px" bg={"#f5fcff"} p={4} w={{ base: "65px", md: "85px", lg: "90px" }}  src="https://cdn.iconscout.com/icon/free/png-256/aws-1869025-1583149.png"  _hover={{ transform: "scale(1.2)" }}/>
             <Text style={theme === "light" ? light : dark} bg={"#f5fcff"} textAlign="center" mt={{ base: "12px", lg: "16px" }} >AWS</Text>
           </GridItem>
 

@@ -31,7 +31,7 @@ export const Profile = () => {
       textAlign={'center'}
         gap={10}
         alignItems={{ base: "center", md: "center" }}
-       w={{base : '90%', md: '85%', lg :'90%'}}
+       w={{base : '90%', md: '85%', lg :'60%'}}
        margin={'auto'}
         mt={20}
         flexDirection={{ base: "column-reverse", lg: "row" }}
