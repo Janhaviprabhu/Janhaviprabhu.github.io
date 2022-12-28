@@ -88,7 +88,7 @@ export const Work = () => {
 
           <Flex
             display={{ base: "none", md: "flex" }}
-            w={{ base: "50%", sm: "32%", md: "15%", lg: "50%" }}
+            w={{ base: "50%", sm: "32%", md: "15%", lg: "40%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -125,7 +125,7 @@ export const Work = () => {
           </Flex>
           <Flex
             display={{ base: "flex", md: "none" }}
-            w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
+            w={{ base: "30%", sm: "22%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -228,7 +228,7 @@ export const Work = () => {
 
           <Flex
             display={{ base: "none", md: "flex" }}
-            w={{ base: "50%", sm: "32%", md: "15%", lg: "50%" }}
+            w={{ base: "50%", sm: "32%", md: "15%", lg: "40%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -268,7 +268,7 @@ export const Work = () => {
           </Flex>
           <Flex
             display={{ base: "flex", md: "none" }}
-            w={{ base: "50%", sm: "22%", md: "15%", lg: "50%" }}
+            w={{ base: "30%", sm: "22%", md: "15%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -375,7 +375,7 @@ export const Work = () => {
 
           <Flex
             display={{ base: "none", md: "flex" }}
-            w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
+            w={{ base: "50%", sm: "32%", md: "18%", lg: "40%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -415,7 +415,7 @@ export const Work = () => {
           </Flex>
           <Flex
             display={{ base: "flex", md: "none" }}
-            w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
+            w={{ base: "30%", sm: "22%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
@@ -621,7 +621,7 @@ export const Work = () => {
 
           <Flex
             display={{ base: "none", md: "flex" }}
-            w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
+            w={{ base: "50%", sm: "32%", md: "18%", lg: "38%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", md: "20px", lg: "40px" }}
@@ -661,7 +661,7 @@ export const Work = () => {
           </Flex>
           <Flex
             display={{ base: "flex", md: "none" }}
-            w={{ base: "50%", sm: "32%", md: "18%", lg: "50%" }}
+            w={{ base: "30%", sm: "22%", md: "18%", lg: "50%" }}
             alignContent={"center"}
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
