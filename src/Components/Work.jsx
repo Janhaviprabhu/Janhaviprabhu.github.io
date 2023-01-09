@@ -42,7 +42,7 @@ export const Work = () => {
         columns={[1, 1, 1, 2]}
       >
         <Box m={"auto"}>
-          <a href="https://five-metric.netlify.app/" target={"_blank"}>
+          <a href="https://five-metric.vercel.app/" target={"_blank"}>
             <Image
               className="project_image"
               src="https://user-images.githubusercontent.com/97351159/201516132-0c3a6515-8808-49d3-831c-b43ccf09f2ff.png"
