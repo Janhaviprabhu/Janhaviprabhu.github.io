@@ -46,7 +46,6 @@ export const GitCalender = () => {
       </Text>
       <Flex
         style={theme === "light" ? light : dark}
-        
         width={{ base: "89%", md: "80%", lg: "100%" }}
         h='auto'
         m='auto'
