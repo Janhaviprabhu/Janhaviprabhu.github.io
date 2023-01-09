@@ -41,7 +41,7 @@ export const GitStats=()=>{
             <a href="https://github.com/Janhaviprabhu">
               <Image
                 width={{ base: "270px", md: "480px", lg: "500px" }}
-                src="https://github-readme-streak-stats.herokuapp.com/?user=Janhaviprabhu"
+                src="https://github-readme-streak-stats.herokuapp.com/?user=Janhaviprabhu&show_icons=true&count_private=true"
               />
             </a>
           </Box>

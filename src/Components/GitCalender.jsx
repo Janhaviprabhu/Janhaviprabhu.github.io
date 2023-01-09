@@ -5,12 +5,12 @@ import ReactToolTip from "react-tooltip";
 import { AppContex } from "../Context/Authcontext";
 
 export const GitCalender = () => {
-  const selectLastHalfYear = (contributions) => {
+  const selectLastHalfYear = contributions => {
     const currentYear = new Date().getFullYear();
     const currentMonth = new Date().getMonth();
-    const shownMonths = 10;
+    const shownMonths = 12;
 
-    return contributions.filter((day) => {
+    return contributions.filter(day => {
       const date = new Date(day.date);
       const monthOfDay = date.getMonth();
 
@@ -52,15 +52,16 @@ export const GitCalender = () => {
         m='auto'
         justifyContent="center"
         alignItems="center"
+        margin={'auto'}
         mt={{ base: "10px", md: "20px" }}
       >
         <GitHubCalendar
           username="Janhaviprabhu"
-          year={new Date().getFullYear()}
-          transformData={selectLastHalfYear}
+          year='last'
+           color= "#00B5D6"
         >
           {" "}
-          <ReactToolTip />{" "}
+          <ReactToolTip delayShow={20} />{" "}
         </GitHubCalendar>
       </Flex>
     </>
