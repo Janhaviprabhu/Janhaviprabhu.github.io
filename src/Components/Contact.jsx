@@ -1,8 +1,8 @@
 import { Box, Flex, Text, VStack } from "@chakra-ui/react";
 import { AiFillPhone } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
-import { GrMail, GrLocation } from "react-icons/gr";
-import { BiCopyright } from "react-icons/bi";
+import { GrMail} from "react-icons/gr";
+import {BsGithub} from 'react-icons/bs'
 import { useContext } from "react";
 import { AppContex } from "../Context/Authcontext";
 
@@ -19,6 +19,7 @@ export const Contact = () => {
     };
   return (
     <>
+    <Box h='90px'></Box>
       <Text
         
         color={"#088aa8"}
@@ -36,7 +37,7 @@ export const Contact = () => {
         mt={10}
         textAlign={"center"}
         alignContent="center"
-        w={{ base: "75%", sm: "50%", md: "35%", lg: "21%" }}
+        w={{ base: "90%", sm: "83%", md: "48%", lg: "28%" }}
         
         margin={"auto"}
       >
@@ -67,6 +68,23 @@ export const Contact = () => {
               mb={"10px"}
             >
               <GrMail />
+            </Text>{" "}
+          </a>
+        </Box>
+        <Box>
+          <a
+            fontSize={{ base: "12px", md: "26px", lg: "36px" }}
+            target={"_blank"}
+            href="https://github.com/Janhaviprabhu"
+          >
+            <Text
+              mt={5}
+              fontSize={{ base: "22px", md: "26px", lg: "36px" }}
+              textAlign={"center"}
+              ml="60px"
+              mb={"10px"}
+            >
+              <BsGithub/>
             </Text>{" "}
           </a>
         </Box>

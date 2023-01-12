@@ -17,6 +17,7 @@ export const Skills = () => {
     };
   return (
     <>
+    <Box h='100px'></Box>
         <Text fontWeight={600}  textAlign="center"  color={"#00B5D8"} fontSize={{ base: "23px", md: "25px", lg: "43px" }}>Technical Skills</Text>
 
         <Text style={theme === "light" ? light : dark} bg={"#f5fcff"} textAlign="center" fontSize={{ base: "12px", md: "18px", lg: "20px" }} fontWeight={{ base: "600", md: "600" }} mt={{ base: "10px", md: "20px", lg: "35px" }} letterSpacing={{ base: "3px" }}>

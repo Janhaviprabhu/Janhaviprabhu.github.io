@@ -23,6 +23,7 @@ export const About = () => {
   };
   return (
     <>
+    <Box h='100px'></Box>
       <Box style={theme === "light" ? light : dark} bg={"#f5fcff"} mt={{base : '20px'}}>
         <Text  fontWeight={600} style={theme === "light" ? jplight : jpdark} textAlign={"center"} color="#00B5D8" mt={{base :'20px'}} fontSize={{ base: "25px", md: "27px", lg: "40px" }}> About Me</Text>
       </Box>

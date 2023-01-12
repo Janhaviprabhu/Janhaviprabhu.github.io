@@ -24,10 +24,10 @@ export const Profile = () => {
   };
   return (
     <>
-      <Box></Box>
+      <Box h='90px'></Box>
       <Flex 
         style={theme === "light" ? light : dark}
-      
+   
       textAlign={'center'}
         gap={10}
         alignItems={{ base: "center", md: "center" }}

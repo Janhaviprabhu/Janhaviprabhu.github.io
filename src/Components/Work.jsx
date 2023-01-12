@@ -19,6 +19,7 @@ export const Work = () => {
     };
   return (
     <>
+    <Box h='90px'></Box>
       <Text
         mt={10}
         mb={10}
