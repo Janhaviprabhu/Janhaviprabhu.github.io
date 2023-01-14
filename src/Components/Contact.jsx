@@ -19,11 +19,11 @@ export const Contact = () => {
     };
   return (
     <>
-    <Box h='90px'></Box>
+
       <Text
         
         color={"#088aa8"}
-        mt={10}
+        mt={20}
         textAlign="center"
      
         fontWeight={600}

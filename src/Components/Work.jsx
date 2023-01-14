@@ -94,7 +94,7 @@ export const Work = () => {
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
           >
-            <a href="https://five-metric.netlify.app/" target={"_blank"}>
+            <a href="https://five-metric.vercel.app/" target={"_blank"}>
               <Button
                 mt={3}
                 color={"white"}
@@ -131,7 +131,7 @@ export const Work = () => {
             margin={"auto"}
             gap={{ base: "10px", lg: "40px" }}
           >
-            <a href="https://five-metric.netlify.app/" target={"_blank"}>
+            <a href="https://five-metric.vercel.app/" target={"_blank"}>
               <Button
                 mt={3}
                 color={"white"}
