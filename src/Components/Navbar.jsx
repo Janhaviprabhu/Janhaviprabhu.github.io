@@ -153,8 +153,8 @@ export default function Simple({ Profile, About, Skills, Projects, Contact }) {
               fontWeight={400}
               as={Link}
               download={true}
-              _hover={{ backgroundColor: "#00B5D6", textDecoration: "none" }}
-              background={"#088aa8"}
+              _hover={{ backgroundColor: "#088aa8", textDecoration: "none" }}
+              background={"#009abd"}
               rightIcon={<HiDocumentDownload />}
               href="/Janhavi_Prabhu_Resume.pdf"
               onClick={handleDownload}

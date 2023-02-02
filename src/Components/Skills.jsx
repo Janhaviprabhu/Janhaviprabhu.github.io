@@ -1,9 +1,9 @@
 import { Box, GridItem, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import { GitStats } from "./GitStats";
-import { GitCalender } from "./GitCalender";
 import "../App.css";
 import { useContext } from "react";
 import { AppContex } from "../Context/Authcontext";
+import GitCalender from "./GitCalender";
 export const Skills = () => {
    const { theme } = useContext(AppContex);
     const light = {
