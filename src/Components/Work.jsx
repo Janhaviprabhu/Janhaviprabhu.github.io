@@ -1,22 +1,11 @@
-import { AspectRatio, Box,Button,Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import {  Box,Button,Flex, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import "../App.css";
-import {motion} from "framer-motion"
 import { useContext } from "react";
 import { AppContex } from "../Context/Authcontext";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import {AiFillGithub} from "react-icons/ai"
 
 export const Work = () => {
-   const { theme } = useContext(AppContex);
-    const light = {
-      backgroundColor: "#f5fcff",
-      color: "black",
-    };
-
-    const dark = {
-      backgroundColor: "black",
-      color: "#f5fcff",
-    };
   return (
     <>
     <Box h='90px'></Box>
@@ -183,7 +172,7 @@ export const Work = () => {
       >
         <Box m={"auto"}>
           <a
-            href="https://bright-nasturtium-5fc334.netlify.app/"
+            href="https://medspharma.netlify.app/"
             target={"_blank"}
           >
             <Image
@@ -235,7 +224,7 @@ export const Work = () => {
             gap={{ base: "10px", lg: "40px" }}
           >
             <a
-              href="https://bright-nasturtium-5fc334.netlify.app/"
+              href="https://medspharma.netlify.app/"
               target={"_blank"}
             >
               <Button
@@ -275,7 +264,7 @@ export const Work = () => {
             gap={{ base: "10px", lg: "40px" }}
           >
             <a
-              href="https://bright-nasturtium-5fc334.netlify.app/"
+              href="https://medspharma.netlify.app/"
               target={"_blank"}
             >
               <Button

@@ -1,7 +1,6 @@
 import { Box, Text } from "@chakra-ui/react";
 import { useContext } from "react";
 import { AppContex } from "../Context/Authcontext";
-import { GitCalender } from "./GitCalender";
 
 export const About = () => {
   const { theme } = useContext(AppContex);
