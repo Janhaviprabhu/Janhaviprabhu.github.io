@@ -1,4 +1,5 @@
 # Janhaviprabhu.github.io
 My Portfolio
 
-<a href="https://janhaviprabhu.github.io/ target="_blank">Link of Portfolio</a>
+💬Have a look at my [portfolio](
+https://janhaviprabhu.github.io/).
